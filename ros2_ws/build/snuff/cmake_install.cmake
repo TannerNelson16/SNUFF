@@ -1,8 +1,8 @@
-# Install script for directory: /home/tannernelson3/ROS/ros/ros2_ws/src/snuff
+# Install script for directory: /home/tannernelson3/snuff_ros2/ros2_ws/src/snuff
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tannernelson3/ROS/ros/ros2_ws/install/snuff")
+  set(CMAKE_INSTALL_PREFIX "/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,62 +43,62 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/launch" TYPE DIRECTORY FILES "/home/tannernelson3/ROS/ros/ros2_ws/src/snuff/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/launch" TYPE DIRECTORY FILES "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/rviz" TYPE DIRECTORY FILES "/home/tannernelson3/ROS/ros/ros2_ws/src/snuff/rviz/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/rviz" TYPE DIRECTORY FILES "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/rviz/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/config" TYPE DIRECTORY FILES "/home/tannernelson3/ROS/ros/ros2_ws/src/snuff/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/config" TYPE DIRECTORY FILES "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/models" TYPE DIRECTORY FILES "/home/tannernelson3/ROS/ros/ros2_ws/src/snuff/models/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/models" TYPE DIRECTORY FILES "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/models/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/worlds" TYPE DIRECTORY FILES "/home/tannernelson3/ROS/ros/ros2_ws/src/snuff/worlds/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/worlds" TYPE DIRECTORY FILES "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/worlds/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/environment" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/environment" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/environment" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/environment" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/site-packages/snuff-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_python/snuff/snuff.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/site-packages/snuff-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_python/snuff/snuff.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/site-packages/snuff" TYPE DIRECTORY FILES "/home/tannernelson3/ROS/ros/ros2_ws/src/snuff/snuff/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/site-packages/snuff" TYPE DIRECTORY FILES "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/snuff/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3.10" "-m" "compileall"
-        "/home/tannernelson3/ROS/ros/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff"
+        "/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff"
       )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/snuff" TYPE PROGRAM FILES
-    "/home/tannernelson3/ROS/ros/ros2_ws/src/snuff/scripts/exec.py"
-    "/home/tannernelson3/ROS/ros/ros2_ws/src/snuff/scripts/state_publisher.py"
+    "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/scripts/exec.py"
+    "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/scripts/state_publisher.py"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/snuff")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/snuff")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/snuff")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/snuff")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -106,7 +106,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/environment" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/environment" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -114,42 +114,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/environment" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/environment" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_index/share/ament_index/resource_index/packages/snuff")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_index/share/ament_index/resource_index/packages/snuff")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff/cmake" TYPE FILE FILES
-    "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_core/snuffConfig.cmake"
-    "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_core/snuffConfig-version.cmake"
+    "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_core/snuffConfig.cmake"
+    "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_core/snuffConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff" TYPE FILE FILES "/home/tannernelson3/ROS/ros/ros2_ws/src/snuff/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/snuff" TYPE FILE FILES "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -160,5 +160,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

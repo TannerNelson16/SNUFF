@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/src/usb_cam_node.cpp" "CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o" "gcc" "CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o.d"
+  "/home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/src/usb_cam_node.cpp" "CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o" "gcc" "CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake"
+  "/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

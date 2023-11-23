@@ -1,0 +1,2 @@
+Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam -- -j4 -l4
+Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam -- -j4 -l4

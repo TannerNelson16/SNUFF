@@ -21,9 +21,9 @@ class CameraController(Node):
         self.pan_value = 0
         self.tilt_value = 0
         self.pan_step = 5
-        self.tilt_step = 5
+        self.tilt_step = 3
         # Timer for continuous panning
-        self.timer = self.create_timer(0.4, self.continuous_panning)
+        self.timer = self.create_timer(0.3, self.continuous_panning)
 
     def continuous_panning(self):
         
@@ -63,11 +63,11 @@ class CameraController(Node):
             #    self.timer = self.create_timer(1.0, self.continuous_tilting)
             #self.timer = self.create_timer(1.0, self.continuous_tilting)
             print(tag_center_y)
-            if tag_center_x >= 475 and tag_center_x <= 525:
+            if tag_center_x >= 300 and tag_center_x <= 310:
                 self.pan_step = 0
          #       self.pan_value += -0.05
          #       print(tag_center_y)
-                self.timer = self.create_timer(1.0, self.continuous_tilting)
+                self.timer = self.create_timer(0.25, self.continuous_tilting)
 
            # if tag_center_x <= 55: 
            #     self.pan_step = 0
@@ -75,7 +75,7 @@ class CameraController(Node):
             #    print(tag_center_y)
             #    self.timer = self.create_timer(1.0, self.continuous_tilting)
             
-            if tag_center_y >= 310 and tag_center_y <= 332:
+            if tag_center_y >= 240 and tag_center_y <= 260:
                 self.tilt_step = 0 
                # self.tilt_value += 0.05
 
@@ -84,8 +84,8 @@ class CameraController(Node):
     def continuous_tilting(self):
     
         # Define the maximum and minimum pan angles
-        max_tilt_angle = 85
-        min_tilt_angle = -85
+        max_tilt_angle = 60
+        min_tilt_angle = -60
     
         # Adjust pan value for continuous panning
         self.tilt_value = self.tilt_value + self.tilt_step

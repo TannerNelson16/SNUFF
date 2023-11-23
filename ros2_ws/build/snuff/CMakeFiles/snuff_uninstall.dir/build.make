@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tannernelson3/ROS/ros/ros2_ws/src/snuff
+CMAKE_SOURCE_DIR = /home/tannernelson3/snuff_ros2/ros2_ws/src/snuff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tannernelson3/ROS/ros/ros2_ws/build/snuff
+CMAKE_BINARY_DIR = /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff
 
 # Utility rule file for snuff_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/snuff_uninstall.dir/compiler_depend.make
 include CMakeFiles/snuff_uninstall.dir/progress.make
 
 CMakeFiles/snuff_uninstall:
-	/usr/bin/cmake -P /home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 snuff_uninstall: CMakeFiles/snuff_uninstall
 snuff_uninstall: CMakeFiles/snuff_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/snuff_uninstall.dir/clean:
 .PHONY : CMakeFiles/snuff_uninstall.dir/clean
 
 CMakeFiles/snuff_uninstall.dir/depend:
-	cd /home/tannernelson3/ROS/ros/ros2_ws/build/snuff && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tannernelson3/ROS/ros/ros2_ws/src/snuff /home/tannernelson3/ROS/ros/ros2_ws/src/snuff /home/tannernelson3/ROS/ros/ros2_ws/build/snuff /home/tannernelson3/ROS/ros/ros2_ws/build/snuff /home/tannernelson3/ROS/ros/ros2_ws/build/snuff/CMakeFiles/snuff_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tannernelson3/snuff_ros2/ros2_ws/src/snuff /home/tannernelson3/snuff_ros2/ros2_ws/src/snuff /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/CMakeFiles/snuff_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/snuff_uninstall.dir/depend
 

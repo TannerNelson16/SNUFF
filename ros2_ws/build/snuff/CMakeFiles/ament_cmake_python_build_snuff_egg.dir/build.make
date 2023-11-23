@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tannernelson3/ROS/ros/ros2_ws/src/snuff
+CMAKE_SOURCE_DIR = /home/tannernelson3/snuff_ros2/ros2_ws/src/snuff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tannernelson3/ROS/ros/ros2_ws/build/snuff
+CMAKE_BINARY_DIR = /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff
 
 # Utility rule file for ament_cmake_python_build_snuff_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_snuff_egg.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_build_snuff_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_snuff_egg:
-	cd /home/tannernelson3/ROS/ros/ros2_ws/build/snuff/ament_cmake_python/snuff && /usr/bin/python3.10 setup.py egg_info
+	cd /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/ament_cmake_python/snuff && /usr/bin/python3.10 setup.py egg_info
 
 ament_cmake_python_build_snuff_egg: CMakeFiles/ament_cmake_python_build_snuff_egg
 ament_cmake_python_build_snuff_egg: CMakeFiles/ament_cmake_python_build_snuff_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_snuff_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_snuff_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_snuff_egg.dir/depend:
-	cd /home/tannernelson3/ROS/ros/ros2_ws/build/snuff && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tannernelson3/ROS/ros/ros2_ws/src/snuff /home/tannernelson3/ROS/ros/ros2_ws/src/snuff /home/tannernelson3/ROS/ros/ros2_ws/build/snuff /home/tannernelson3/ROS/ros/ros2_ws/build/snuff /home/tannernelson3/ROS/ros/ros2_ws/build/snuff/CMakeFiles/ament_cmake_python_build_snuff_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tannernelson3/snuff_ros2/ros2_ws/src/snuff /home/tannernelson3/snuff_ros2/ros2_ws/src/snuff /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/CMakeFiles/ament_cmake_python_build_snuff_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_snuff_egg.dir/depend
 

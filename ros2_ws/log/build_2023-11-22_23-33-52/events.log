@@ -1,0 +1,434 @@
+[0.000000] (-) TimerEvent: {}
+[0.001006] (snuff) JobQueued: {'identifier': 'snuff', 'dependencies': OrderedDict()}
+[0.001107] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.001177] (snuff) JobStarted: {'identifier': 'snuff'}
+[0.093152] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.099950] (-) TimerEvent: {}
+[0.187192] (snuff) JobProgress: {'identifier': 'snuff', 'progress': 'cmake'}
+[0.187630] (snuff) Command: {'cmd': ['/usr/bin/cmake', '/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff', '-DCMAKE_INSTALL_PREFIX=/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff'], 'cwd': '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tannernelson3'), ('SSH_CLIENT', '192.168.1.37 58784 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tannernelson3'), ('OLDPWD', '/home/tannernelson3/snuff_ros2/ros2_ws/install'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install:/home/tannernelson3/ROS/ros/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'tannernelson3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1597'), ('PATH', '/home/tannernelson3/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:13.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.37 58784 192.168.1.9 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff:/opt/ros/iron')]), 'shell': False}
+[0.192270] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[0.192560] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '/home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam', '-DCMAKE_INSTALL_PREFIX=/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam'], 'cwd': '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tannernelson3'), ('SSH_CLIENT', '192.168.1.37 58784 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tannernelson3'), ('OLDPWD', '/home/tannernelson3/snuff_ros2/ros2_ws/install'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install:/home/tannernelson3/ROS/ros/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'tannernelson3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1597'), ('PATH', '/home/tannernelson3/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:13.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.37 58784 192.168.1.9 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff:/opt/ros/iron')]), 'shell': False}
+[0.200084] (-) TimerEvent: {}
+[0.271288] (snuff) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.273487] (usb_cam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300212] (-) TimerEvent: {}
+[0.355802] (snuff) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.356370] (usb_cam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.365792] (snuff) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.366129] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400331] (-) TimerEvent: {}
+[0.459189] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.459530] (snuff) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.469703] (usb_cam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.470174] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.470460] (snuff) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.470796] (snuff) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.471032] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.471309] (snuff) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.475234] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.475642] (snuff) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500437] (-) TimerEvent: {}
+[0.586596] (snuff) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.587085] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.597862] (snuff) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.598200] (usb_cam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.598463] (snuff) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.598775] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.599063] (snuff) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.599468] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.600534] (-) TimerEvent: {}
+[0.601998] (usb_cam) StdoutLine: {'line': b'-- Found ament_cmake_auto: 2.0.3 (/opt/ros/iron/share/ament_cmake_auto/cmake)\n'}
+[0.602263] (snuff) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.700662] (-) TimerEvent: {}
+[0.801131] (-) TimerEvent: {}
+[0.839887] (snuff) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.852504] (usb_cam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.901257] (-) TimerEvent: {}
+[0.958267] (snuff) StdoutLine: {'line': b'-- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[1.001360] (-) TimerEvent: {}
+[1.013550] (snuff) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[1.030119] (snuff) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[1.054011] (snuff) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.082128] (snuff) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101483] (-) TimerEvent: {}
+[1.117593] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[1.133792] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[1.156482] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.184299] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201597] (-) TimerEvent: {}
+[1.301992] (-) TimerEvent: {}
+[1.328994] (snuff) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[1.332193] (snuff) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.402108] (-) TimerEvent: {}
+[1.471157] (snuff) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.502229] (-) TimerEvent: {}
+[1.505415] (snuff) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[1.562640] (snuff) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.602345] (-) TimerEvent: {}
+[1.660789] (usb_cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[1.664106] (usb_cam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.702465] (-) TimerEvent: {}
+[1.802881] (-) TimerEvent: {}
+[1.804489] (usb_cam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.824815] (snuff) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[1.838720] (usb_cam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[1.874939] (snuff) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[1.897122] (usb_cam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.902997] (-) TimerEvent: {}
+[1.938717] (snuff) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/opt/ros/iron/share/apriltag_msgs/cmake)\n'}
+[2.003113] (-) TimerEvent: {}
+[2.103506] (-) TimerEvent: {}
+[2.203916] (-) TimerEvent: {}
+[2.205915] (snuff) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.213996] (snuff) StdoutLine: {'line': b'-- Generating done\n'}
+[2.216168] (snuff) StdoutLine: {'line': b'-- Build files have been written to: /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff\n'}
+[2.228699] (snuff) CommandEnded: {'returncode': 0}
+[2.229434] (snuff) JobProgress: {'identifier': 'snuff', 'progress': 'build'}
+[2.230298] (snuff) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff', '--', '-j4', '-l4'], 'cwd': '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tannernelson3'), ('SSH_CLIENT', '192.168.1.37 58784 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tannernelson3'), ('OLDPWD', '/home/tannernelson3/snuff_ros2/ros2_ws/install'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install:/home/tannernelson3/ROS/ros/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'tannernelson3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1597'), ('PATH', '/home/tannernelson3/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:13.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.37 58784 192.168.1.9 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff:/opt/ros/iron')]), 'shell': False}
+[2.303940] (snuff) StdoutLine: {'line': b'Built target ament_cmake_python_copy_snuff\n'}
+[2.304231] (-) TimerEvent: {}
+[2.404712] (-) TimerEvent: {}
+[2.505273] (-) TimerEvent: {}
+[2.605809] (-) TimerEvent: {}
+[2.641518] (snuff) StdoutLine: {'line': b'running egg_info\n'}
+[2.642349] (snuff) StdoutLine: {'line': b'creating snuff.egg-info\n'}
+[2.642692] (snuff) StdoutLine: {'line': b'writing snuff.egg-info/PKG-INFO\n'}
+[2.642961] (snuff) StdoutLine: {'line': b'writing dependency_links to snuff.egg-info/dependency_links.txt\n'}
+[2.643238] (snuff) StdoutLine: {'line': b'writing top-level names to snuff.egg-info/top_level.txt\n'}
+[2.643520] (snuff) StdoutLine: {'line': b"writing manifest file 'snuff.egg-info/SOURCES.txt'\n"}
+[2.646226] (snuff) StdoutLine: {'line': b"reading manifest file 'snuff.egg-info/SOURCES.txt'\n"}
+[2.646927] (snuff) StdoutLine: {'line': b"writing manifest file 'snuff.egg-info/SOURCES.txt'\n"}
+[2.684192] (snuff) StdoutLine: {'line': b'Built target ament_cmake_python_build_snuff_egg\n'}
+[2.698077] (snuff) CommandEnded: {'returncode': 0}
+[2.705930] (-) TimerEvent: {}
+[2.728103] (snuff) JobProgress: {'identifier': 'snuff', 'progress': 'install'}
+[2.737843] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[2.739974] (snuff) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff'], 'cwd': '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tannernelson3'), ('SSH_CLIENT', '192.168.1.37 58784 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tannernelson3'), ('OLDPWD', '/home/tannernelson3/snuff_ros2/ros2_ws/install'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install:/home/tannernelson3/ROS/ros/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'tannernelson3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1597'), ('PATH', '/home/tannernelson3/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:13.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.37 58784 192.168.1.9 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff:/opt/ros/iron')]), 'shell': False}
+[2.750000] (snuff) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.750377] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/launch\n'}
+[2.750673] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/launch/__pycache__\n'}
+[2.750954] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/launch/__pycache__/robot.launch.cpython-310.pyc\n'}
+[2.751208] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/launch/robot.launch.py\n'}
+[2.751473] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/rviz\n'}
+[2.751700] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/rviz/robot.rviz\n'}
+[2.752030] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/config\n'}
+[2.752253] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/config/params_1.yaml\n'}
+[2.752456] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/config/camera_info.yaml\n'}
+[2.752695] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/config/apriltags.yaml\n'}
+[2.752893] (usb_cam) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[2.753112] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models\n'}
+[2.753285] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot\n'}
+[2.753447] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/floor.sdf\n'}
+[2.753690] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/Invoice 5030603.pdf\n'}
+[2.753842] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/tag1_cube.sdf\n'}
+[2.753980] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/pxxls_cam.urdf.xacro\n'}
+[2.754172] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes\n'}
+[2.754367] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/tag36_11_00003.png\n'}
+[2.754573] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_camera.stl\n'}
+[2.754788] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/tag3_cube.dae\n'}
+[2.754984] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/camera.dae\n'}
+[2.755160] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/base.dae\n'}
+[2.755365] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_tilt.stl\n'}
+[2.755549] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_pan.stl\n'}
+[2.755748] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_base.stl\n'}
+[2.756023] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/world.world\n'}
+[2.756334] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/robot.sdf\n'}
+[2.756614] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/tag2_cube.sdf\n'}
+[2.756896] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/tag3_cube.sdf\n'}
+[2.757111] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/world.sdf\n'}
+[2.757259] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/__init__.py\n'}
+[2.757400] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/worlds\n'}
+[2.757631] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/pythonpath.sh\n'}
+[2.757850] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/pythonpath.dsv\n'}
+[2.758068] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff-0.0.0-py3.10.egg-info\n'}
+[2.758286] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.758467] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.758724] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.758961] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.759121] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff\n'}
+[2.759275] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff/__init__.py\n'}
+[2.759427] (usb_cam) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.760270] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[2.779940] (usb_cam) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[2.803703] (snuff) StdoutLine: {'line': b"Listing '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff'...\n"}
+[2.804130] (snuff) StdoutLine: {'line': b"Compiling '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff/__init__.py'...\n"}
+[2.806059] (-) TimerEvent: {}
+[2.812511] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/snuff/exec.py\n'}
+[2.812984] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/snuff/state_publisher.py\n'}
+[2.813286] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/ament_index/resource_index/package_run_dependencies/snuff\n'}
+[2.813573] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/ament_index/resource_index/parent_prefix_path/snuff\n'}
+[2.813848] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/ament_prefix_path.sh\n'}
+[2.814127] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/ament_prefix_path.dsv\n'}
+[2.814397] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/path.sh\n'}
+[2.814682] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/path.dsv\n'}
+[2.814951] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/local_setup.bash\n'}
+[2.815242] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/local_setup.sh\n'}
+[2.815532] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/local_setup.zsh\n'}
+[2.815817] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/local_setup.dsv\n'}
+[2.816104] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.dsv\n'}
+[2.816336] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/ament_index/resource_index/packages/snuff\n'}
+[2.816564] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/cmake/snuffConfig.cmake\n'}
+[2.816783] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/cmake/snuffConfig-version.cmake\n'}
+[2.817109] (snuff) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.xml\n'}
+[2.819551] (snuff) CommandEnded: {'returncode': 0}
+[2.831352] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[2.849314] (usb_cam) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[2.893245] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[2.906147] (-) TimerEvent: {}
+[2.911598] (usb_cam) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[2.966749] (usb_cam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[2.992825] (usb_cam) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.998207] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.006432] (-) TimerEvent: {}
+[3.092390] (snuff) JobEnded: {'identifier': 'snuff', 'rc': 0}
+[3.094428] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.094749] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.106539] (-) TimerEvent: {}
+[3.186876] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.188331] (usb_cam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.197277] (usb_cam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.203089] (usb_cam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.203526] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include\n'}
+[3.203670] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.206641] (-) TimerEvent: {}
+[3.209533] (usb_cam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.209720] (usb_cam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.210936] (usb_cam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.211096] (usb_cam) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.213019] (usb_cam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.214345] (usb_cam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.219845] (usb_cam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.220041] (usb_cam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.221246] (usb_cam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.224597] (usb_cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.269203] (usb_cam) StdoutLine: {'line': b'-- Generating done\n'}
+[3.272715] (usb_cam) StdoutLine: {'line': b'-- Build files have been written to: /home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam\n'}
+[3.288604] (usb_cam) CommandEnded: {'returncode': 0}
+[3.289861] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[3.290290] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam', '--', '-j4', '-l4'], 'cwd': '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tannernelson3'), ('SSH_CLIENT', '192.168.1.37 58784 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tannernelson3'), ('OLDPWD', '/home/tannernelson3/snuff_ros2/ros2_ws/install'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install:/home/tannernelson3/ROS/ros/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'tannernelson3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1597'), ('PATH', '/home/tannernelson3/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:13.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.37 58784 192.168.1.9 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff:/opt/ros/iron')]), 'shell': False}
+[3.306770] (-) TimerEvent: {}
+[3.366416] (usb_cam) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[3.366722] (usb_cam) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o\x1b[0m\n'}
+[3.366894] (usb_cam) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[3.367203] (usb_cam) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o\x1b[0m\n'}
+[3.406883] (-) TimerEvent: {}
+[3.507441] (-) TimerEvent: {}
+[3.608032] (-) TimerEvent: {}
+[3.708652] (-) TimerEvent: {}
+[3.809473] (-) TimerEvent: {}
+[3.910101] (-) TimerEvent: {}
+[4.010798] (-) TimerEvent: {}
+[4.111571] (-) TimerEvent: {}
+[4.212188] (-) TimerEvent: {}
+[4.312809] (-) TimerEvent: {}
+[4.413519] (-) TimerEvent: {}
+[4.514133] (-) TimerEvent: {}
+[4.614849] (-) TimerEvent: {}
+[4.715458] (-) TimerEvent: {}
+[4.816148] (-) TimerEvent: {}
+[4.916764] (-) TimerEvent: {}
+[4.933998] (usb_cam) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[5.004508] (usb_cam) StdoutLine: {'line': b'[ 35%] Built target gtest_main\n'}
+[5.016894] (-) TimerEvent: {}
+[5.117583] (-) TimerEvent: {}
+[5.218261] (-) TimerEvent: {}
+[5.318970] (-) TimerEvent: {}
+[5.419720] (-) TimerEvent: {}
+[5.520397] (-) TimerEvent: {}
+[5.621132] (-) TimerEvent: {}
+[5.721922] (-) TimerEvent: {}
+[5.822635] (-) TimerEvent: {}
+[5.923307] (-) TimerEvent: {}
+[6.024220] (-) TimerEvent: {}
+[6.124881] (-) TimerEvent: {}
+[6.225480] (-) TimerEvent: {}
+[6.241131] (usb_cam) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam.so\x1b[0m\n'}
+[6.325623] (-) TimerEvent: {}
+[6.426079] (-) TimerEvent: {}
+[6.526562] (-) TimerEvent: {}
+[6.627032] (-) TimerEvent: {}
+[6.727505] (-) TimerEvent: {}
+[6.732981] (usb_cam) StdoutLine: {'line': b'[ 42%] Built target usb_cam\n'}
+[6.777440] (usb_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o\x1b[0m\n'}
+[6.827637] (-) TimerEvent: {}
+[6.928334] (-) TimerEvent: {}
+[7.029035] (-) TimerEvent: {}
+[7.129685] (-) TimerEvent: {}
+[7.230291] (-) TimerEvent: {}
+[7.330974] (-) TimerEvent: {}
+[7.431412] (-) TimerEvent: {}
+[7.531990] (-) TimerEvent: {}
+[7.632647] (-) TimerEvent: {}
+[7.733351] (-) TimerEvent: {}
+[7.834106] (-) TimerEvent: {}
+[7.934841] (-) TimerEvent: {}
+[8.035423] (-) TimerEvent: {}
+[8.136030] (-) TimerEvent: {}
+[8.236623] (-) TimerEvent: {}
+[8.337345] (-) TimerEvent: {}
+[8.437769] (-) TimerEvent: {}
+[8.538493] (-) TimerEvent: {}
+[8.639168] (-) TimerEvent: {}
+[8.739777] (-) TimerEvent: {}
+[8.840575] (-) TimerEvent: {}
+[8.941352] (-) TimerEvent: {}
+[9.042093] (-) TimerEvent: {}
+[9.142821] (-) TimerEvent: {}
+[9.243528] (-) TimerEvent: {}
+[9.344223] (-) TimerEvent: {}
+[9.444948] (-) TimerEvent: {}
+[9.545615] (-) TimerEvent: {}
+[9.638635] (usb_cam) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[9.645747] (-) TimerEvent: {}
+[9.746765] (-) TimerEvent: {}
+[9.764796] (usb_cam) StdoutLine: {'line': b'[ 57%] Built target gtest\n'}
+[9.806849] (usb_cam) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o\x1b[0m\n'}
+[9.810849] (usb_cam) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o\x1b[0m\n'}
+[9.846888] (-) TimerEvent: {}
+[9.947556] (-) TimerEvent: {}
+[10.048212] (-) TimerEvent: {}
+[10.149003] (-) TimerEvent: {}
+[10.249677] (-) TimerEvent: {}
+[10.350394] (-) TimerEvent: {}
+[10.451104] (-) TimerEvent: {}
+[10.551789] (-) TimerEvent: {}
+[10.652492] (-) TimerEvent: {}
+[10.753247] (-) TimerEvent: {}
+[10.853853] (-) TimerEvent: {}
+[10.954299] (-) TimerEvent: {}
+[11.054757] (-) TimerEvent: {}
+[11.155240] (-) TimerEvent: {}
+[11.255750] (-) TimerEvent: {}
+[11.356237] (-) TimerEvent: {}
+[11.456704] (-) TimerEvent: {}
+[11.557165] (-) TimerEvent: {}
+[11.657581] (-) TimerEvent: {}
+[11.694902] (usb_cam) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable test_pixel_formats\x1b[0m\n'}
+[11.738260] (usb_cam) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable test_usb_cam_utils\x1b[0m\n'}
+[11.757720] (-) TimerEvent: {}
+[11.760728] (usb_cam) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable usb_cam_node_exe\x1b[0m\n'}
+[11.857892] (-) TimerEvent: {}
+[11.958667] (-) TimerEvent: {}
+[12.059292] (-) TimerEvent: {}
+[12.159890] (-) TimerEvent: {}
+[12.179375] (usb_cam) StdoutLine: {'line': b'[ 92%] Built target usb_cam_node_exe\n'}
+[12.184350] (usb_cam) StdoutLine: {'line': b'[ 92%] Built target test_pixel_formats\n'}
+[12.219199] (usb_cam) StdoutLine: {'line': b'[ 92%] Built target test_usb_cam_utils\n'}
+[12.260010] (-) TimerEvent: {}
+[12.360389] (-) TimerEvent: {}
+[12.460777] (-) TimerEvent: {}
+[12.561184] (-) TimerEvent: {}
+[12.661554] (-) TimerEvent: {}
+[12.761944] (-) TimerEvent: {}
+[12.862319] (-) TimerEvent: {}
+[12.962703] (-) TimerEvent: {}
+[13.063087] (-) TimerEvent: {}
+[13.163471] (-) TimerEvent: {}
+[13.263843] (-) TimerEvent: {}
+[13.364205] (-) TimerEvent: {}
+[13.464590] (-) TimerEvent: {}
+[13.564990] (-) TimerEvent: {}
+[13.665374] (-) TimerEvent: {}
+[13.765755] (-) TimerEvent: {}
+[13.866129] (-) TimerEvent: {}
+[13.966539] (-) TimerEvent: {}
+[14.066919] (-) TimerEvent: {}
+[14.167297] (-) TimerEvent: {}
+[14.267669] (-) TimerEvent: {}
+[14.368042] (-) TimerEvent: {}
+[14.468414] (-) TimerEvent: {}
+[14.568791] (-) TimerEvent: {}
+[14.669182] (-) TimerEvent: {}
+[14.769615] (-) TimerEvent: {}
+[14.869995] (-) TimerEvent: {}
+[14.970349] (-) TimerEvent: {}
+[15.070703] (-) TimerEvent: {}
+[15.171107] (-) TimerEvent: {}
+[15.271442] (-) TimerEvent: {}
+[15.371862] (-) TimerEvent: {}
+[15.472236] (-) TimerEvent: {}
+[15.572633] (-) TimerEvent: {}
+[15.673101] (-) TimerEvent: {}
+[15.773456] (-) TimerEvent: {}
+[15.873845] (-) TimerEvent: {}
+[15.974215] (-) TimerEvent: {}
+[16.074576] (-) TimerEvent: {}
+[16.174934] (-) TimerEvent: {}
+[16.275306] (-) TimerEvent: {}
+[16.375681] (-) TimerEvent: {}
+[16.476059] (-) TimerEvent: {}
+[16.576433] (-) TimerEvent: {}
+[16.676795] (-) TimerEvent: {}
+[16.777179] (-) TimerEvent: {}
+[16.877553] (-) TimerEvent: {}
+[16.977954] (-) TimerEvent: {}
+[17.078029] (usb_cam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam_node.so\x1b[0m\n'}
+[17.078262] (-) TimerEvent: {}
+[17.178598] (-) TimerEvent: {}
+[17.279165] (-) TimerEvent: {}
+[17.380162] (-) TimerEvent: {}
+[17.480610] (-) TimerEvent: {}
+[17.535589] (usb_cam) StdoutLine: {'line': b'[100%] Built target usb_cam_node\n'}
+[17.548968] (usb_cam) CommandEnded: {'returncode': 0}
+[17.580702] (-) TimerEvent: {}
+[17.598104] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'install'}
+[17.599106] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam'], 'cwd': '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tannernelson3'), ('SSH_CLIENT', '192.168.1.37 58784 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/tannernelson3'), ('OLDPWD', '/home/tannernelson3/snuff_ros2/ros2_ws/install'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install:/home/tannernelson3/ROS/ros/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'tannernelson3'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1597'), ('PATH', '/home/tannernelson3/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:13.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.37 58784 192.168.1.9 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam:/home/tannernelson3/ROS/ros/ros2_ws/install/snuff:/opt/ros/iron')]), 'shell': False}
+[17.608493] (usb_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.608824] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/environment/library_path.sh\n'}
+[17.609170] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv\n'}
+[17.609515] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe\n'}
+[17.610505] (usb_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""\n'}
+[17.610924] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib/usb_cam/show_image.py\n'}
+[17.611176] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib/libusb_cam.so\n'}
+[17.612133] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib/libusb_cam_node.so\n'}
+[17.614760] (usb_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib/libusb_cam_node.so" to ""\n'}
+[17.615133] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include\n'}
+[17.615413] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam\n'}
+[17.615624] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp\n'}
+[17.615833] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/constants.hpp\n'}
+[17.616064] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/usb_cam.hpp\n'}
+[17.616322] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/formats\n'}
+[17.616538] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/formats/mono.hpp\n'}
+[17.616739] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp\n'}
+[17.616971] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp\n'}
+[17.617215] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/formats/m420.hpp\n'}
+[17.617464] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp\n'}
+[17.617661] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp\n'}
+[17.617882] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/formats/utils.hpp\n'}
+[17.618076] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp\n'}
+[17.618248] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/conversions.hpp\n'}
+[17.618437] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/include/usb_cam/utils.hpp\n'}
+[17.618651] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib/libusb_cam_node.so\n'}
+[17.618942] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/launch\n'}
+[17.619159] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/launch/camera_config.py\n'}
+[17.619465] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py\n'}
+[17.619729] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/launch/__init__.py\n'}
+[17.619971] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/config\n'}
+[17.620280] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/config/params_2.yaml\n'}
+[17.620527] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/config/params_1.yaml\n'}
+[17.620746] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml\n'}
+[17.621175] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam\n'}
+[17.621500] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam\n'}
+[17.621774] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh\n'}
+[17.622039] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv\n'}
+[17.622312] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/environment/path.sh\n'}
+[17.622570] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/environment/path.dsv\n'}
+[17.622841] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/local_setup.bash\n'}
+[17.623091] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/local_setup.sh\n'}
+[17.623341] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/local_setup.zsh\n'}
+[17.623618] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/local_setup.dsv\n'}
+[17.623876] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/package.dsv\n'}
+[17.624182] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam\n'}
+[17.624493] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam\n'}
+[17.624795] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.625120] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.625374] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.625567] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake\n'}
+[17.625745] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake\n'}
+[17.625920] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/package.xml\n'}
+[17.628135] (usb_cam) CommandEnded: {'returncode': 0}
+[17.681060] (-) TimerEvent: {}
+[17.781766] (-) TimerEvent: {}
+[17.882247] (-) TimerEvent: {}
+[17.891887] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 0}
+[17.893058] (-) EventReactorShutdown: {}

@@ -1,5 +1,5 @@
 CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o: \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/src/usb_cam_node.cpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/src/usb_cam_node.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -170,7 +170,7 @@ CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include/usb_cam/usb_cam_node.hpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include/usb_cam/usb_cam_node.hpp \
  /opt/ros/iron/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp \
  /usr/include/c++/11/mutex /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
@@ -709,7 +709,7 @@ CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o: \
  /opt/ros/iron/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp \
  /opt/ros/iron/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp \
  /opt/ros/iron/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include/usb_cam/usb_cam.hpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include/usb_cam/usb_cam.hpp \
  /usr/include/x86_64-linux-gnu/libavcodec/avcodec.h \
  /usr/include/x86_64-linux-gnu/libavutil/samplefmt.h \
  /usr/include/x86_64-linux-gnu/libavutil/avutil.h \
@@ -770,16 +770,16 @@ CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h /usr/include/linux/v4l2-common.h \
  /usr/include/linux/v4l2-controls.h /usr/include/linux/const.h \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include/usb_cam/utils.hpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include/usb_cam/utils.hpp \
  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
  /usr/include/x86_64-linux-gnu/asm/ioctls.h \
  /usr/include/asm-generic/ioctls.h \
  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include/usb_cam/constants.hpp \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include/usb_cam/formats/pixel_format_base.hpp \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include/usb_cam/formats/mjpeg.hpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include/usb_cam/constants.hpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include/usb_cam/formats/pixel_format_base.hpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include/usb_cam/formats/mjpeg.hpp \
  /usr/include/x86_64-linux-gnu/libavutil/imgutils.h \
  /usr/include/x86_64-linux-gnu/libavutil/pixdesc.h \
  /usr/include/x86_64-linux-gnu/libavformat/avformat.h \
@@ -789,12 +789,12 @@ CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o: \
  /usr/include/x86_64-linux-gnu/libavutil/error.h \
  /usr/include/x86_64-linux-gnu/libswscale/swscale.h \
  /usr/include/x86_64-linux-gnu/libswscale/version.h \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include/usb_cam/formats/utils.hpp \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include/usb_cam/formats/mono.hpp \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include/usb_cam/formats/rgb.hpp \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include/usb_cam/formats/uyvy.hpp \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include/usb_cam/formats/yuyv.hpp \
- /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include/usb_cam/formats/m420.hpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include/usb_cam/formats/utils.hpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include/usb_cam/formats/mono.hpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include/usb_cam/formats/rgb.hpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include/usb_cam/formats/uyvy.hpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include/usb_cam/formats/yuyv.hpp \
+ /home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include/usb_cam/formats/m420.hpp \
  /usr/include/opencv4/opencv2/imgproc.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \

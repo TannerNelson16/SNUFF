@@ -1,0 +1,107 @@
+[0.187s] Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/tannernelson3/snuff_ros2/ros2_ws/src/snuff -DCMAKE_INSTALL_PREFIX=/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff
+[0.270s] -- The C compiler identification is GNU 11.4.0
+[0.355s] -- The CXX compiler identification is GNU 11.4.0
+[0.365s] -- Detecting C compiler ABI info
+[0.458s] -- Detecting C compiler ABI info - done
+[0.469s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.470s] -- Detecting C compile features
+[0.470s] -- Detecting C compile features - done
+[0.475s] -- Detecting CXX compiler ABI info
+[0.586s] -- Detecting CXX compiler ABI info - done
+[0.597s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.597s] -- Detecting CXX compile features
+[0.598s] -- Detecting CXX compile features - done
+[0.601s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.839s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.957s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[1.013s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.029s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.053s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.081s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.328s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.331s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.470s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.504s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.562s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.824s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.874s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.938s] -- Found apriltag_msgs: 2.0.1 (/opt/ros/iron/share/apriltag_msgs/cmake)
+[2.205s] -- Configuring done
+[2.213s] -- Generating done
+[2.215s] -- Build files have been written to: /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff
+[2.228s] Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/tannernelson3/snuff_ros2/ros2_ws/src/snuff -DCMAKE_INSTALL_PREFIX=/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff
+[2.230s] Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff -- -j4 -l4
+[2.303s] Built target ament_cmake_python_copy_snuff
+[2.640s] running egg_info
+[2.641s] creating snuff.egg-info
+[2.642s] writing snuff.egg-info/PKG-INFO
+[2.642s] writing dependency_links to snuff.egg-info/dependency_links.txt
+[2.642s] writing top-level names to snuff.egg-info/top_level.txt
+[2.642s] writing manifest file 'snuff.egg-info/SOURCES.txt'
+[2.645s] reading manifest file 'snuff.egg-info/SOURCES.txt'
+[2.646s] writing manifest file 'snuff.egg-info/SOURCES.txt'
+[2.683s] Built target ament_cmake_python_build_snuff_egg
+[2.697s] Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff -- -j4 -l4
+[2.739s] Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff
+[2.749s] -- Install configuration: ""
+[2.749s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/launch
+[2.750s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/launch/__pycache__
+[2.750s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/launch/__pycache__/robot.launch.cpython-310.pyc
+[2.750s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/launch/robot.launch.py
+[2.750s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/rviz
+[2.751s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/rviz/robot.rviz
+[2.751s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/config
+[2.751s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/config/params_1.yaml
+[2.751s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/config/camera_info.yaml
+[2.752s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/config/apriltags.yaml
+[2.752s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models
+[2.752s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot
+[2.752s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/floor.sdf
+[2.753s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/Invoice 5030603.pdf
+[2.753s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/tag1_cube.sdf
+[2.753s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/pxxls_cam.urdf.xacro
+[2.753s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes
+[2.753s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/tag36_11_00003.png
+[2.753s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_camera.stl
+[2.754s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/tag3_cube.dae
+[2.754s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/camera.dae
+[2.754s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/base.dae
+[2.754s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_tilt.stl
+[2.754s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_pan.stl
+[2.755s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_base.stl
+[2.755s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/world.world
+[2.755s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/robot.sdf
+[2.756s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/tag2_cube.sdf
+[2.756s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/tag3_cube.sdf
+[2.756s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/world.sdf
+[2.756s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/models/robot/__init__.py
+[2.756s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/worlds
+[2.757s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/pythonpath.sh
+[2.757s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/pythonpath.dsv
+[2.757s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff-0.0.0-py3.10.egg-info
+[2.757s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff-0.0.0-py3.10.egg-info/PKG-INFO
+[2.757s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.758s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.758s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff-0.0.0-py3.10.egg-info/top_level.txt
+[2.758s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff
+[2.758s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff/__init__.py
+[2.803s] Listing '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff'...
+[2.803s] Compiling '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff/__init__.py'...
+[2.812s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/snuff/exec.py
+[2.812s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/snuff/state_publisher.py
+[2.812s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/ament_index/resource_index/package_run_dependencies/snuff
+[2.812s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/ament_index/resource_index/parent_prefix_path/snuff
+[2.813s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/ament_prefix_path.sh
+[2.813s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/ament_prefix_path.dsv
+[2.813s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/path.sh
+[2.814s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/path.dsv
+[2.814s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/local_setup.bash
+[2.814s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/local_setup.sh
+[2.814s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/local_setup.zsh
+[2.815s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/local_setup.dsv
+[2.815s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.dsv
+[2.815s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/ament_index/resource_index/packages/snuff
+[2.815s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/cmake/snuffConfig.cmake
+[2.816s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/cmake/snuffConfig-version.cmake
+[2.816s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.xml
+[2.819s] Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff

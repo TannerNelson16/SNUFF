@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include -isystem /opt/ros/iron/src/gtest_vendor/include -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam/include -isystem /opt/ros/iron/src/gtest_vendor/include -isystem /usr/include/opencv4
 
 CXX_FLAGS = -Wall -Wextra -Wpedantic -Werror -std=gnu++14
 

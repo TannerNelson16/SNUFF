@@ -1,0 +1,6 @@
+[0.189s] Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff': CMAKE_PREFIX_PATH=/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff -- -j4 -l4
+[0.201s] [0mCMake Error: The current CMakeCache.txt directory /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff/CMakeCache.txt is different than the directory /home/tannernelson3/ROS/ros/ros2_ws/build/snuff where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.215s] [0mCMake Error: The source directory "/home/tannernelson3/ROS/ros/ros2_ws/src/snuff" does not exist.
+[0.215s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.216s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.219s] Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff -- -j4 -l4
