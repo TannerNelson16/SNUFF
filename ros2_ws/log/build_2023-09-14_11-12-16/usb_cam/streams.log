@@ -1,0 +1,6 @@
+[0.350s] Invoking command in '/home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam -- -j8 -l8
+[0.374s] [0mCMake Error: The current CMakeCache.txt directory /home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam/CMakeCache.txt is different than the directory /home/tanner/ros/ros2_ws/build/usb_cam where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.399s] [0mCMake Error: The source directory "/home/tanner/ros/ros2_ws/src/usb_cam" does not exist.
+[0.399s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.402s] gmake: *** [Makefile:459: cmake_check_build_system] Error 1
+[0.405s] Invoked command in '/home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam -- -j8 -l8

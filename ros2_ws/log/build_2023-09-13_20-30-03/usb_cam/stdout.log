@@ -1,0 +1,8 @@
+-- Searching required modules
+-- Found libavcodec: 58.134.100
+-- Found libavutil: 56.70.100
+-- Found libswscale: 5.9.100
+-- Found OpenCV: 4.5.4
+-- Found Video4Linux kernel library: 1.22.1
+-- Configuring incomplete, errors occurred!
+See also "/home/tanner/ros/ros2_ws/build/usb_cam/CMakeFiles/CMakeOutput.log".

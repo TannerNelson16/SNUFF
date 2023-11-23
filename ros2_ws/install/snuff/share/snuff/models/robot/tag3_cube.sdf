@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<sdf version='1.9'>
+
+    <model name="tag3_cube">
+      <pose>1 -0.8 0.3 0 0 10</pose>
+        <link name="tag3_cube_link">
+            <inertial> <!--inertial properties of the link mass, inertia matix-->
+                <mass>1</mass>
+                <inertia>
+                    <ixx>0.095329</ixx>
+                    <ixy>0</ixy>
+                    <ixz>0</ixz>
+                    <iyy>0.381317</iyy>
+                    <iyz>0</iyz>
+                    <izz>0.476646</izz>
+                </inertia>
+            </inertial>
+            <collision name="tag3_collision">
+                <geometry>
+                  <box>
+                    <size> 0.2 0.2 0.2</size>
+                  </box>
+                </geometry>
+            </collision>
+            <visual name="tag3_visual">
+                <geometry>
+                    <mesh>
+                        <uri>meshes/tag3_cube.dae</uri>
+                        <scale> 0.1 0.1 0.1 </scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+</sdf>

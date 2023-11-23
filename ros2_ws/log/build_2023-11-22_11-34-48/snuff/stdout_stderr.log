@@ -1,0 +1,63 @@
+-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+-- Found apriltag_msgs: 2.0.1 (/opt/ros/iron/share/apriltag_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tannernelson3/ROS/ros/ros2_ws/build/snuff
+Built target ament_cmake_python_copy_snuff
+running egg_info
+creating snuff.egg-info
+writing snuff.egg-info/PKG-INFO
+writing dependency_links to snuff.egg-info/dependency_links.txt
+writing top-level names to snuff.egg-info/top_level.txt
+writing manifest file 'snuff.egg-info/SOURCES.txt'
+reading manifest file 'snuff.egg-info/SOURCES.txt'
+writing manifest file 'snuff.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_snuff_egg
+-- Install configuration: ""
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/launch
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/launch/__pycache__
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/launch/__pycache__/robot.launch.cpython-310.pyc
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/launch/robot.launch.py
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/rviz
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/rviz/robot.rviz
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/config
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/config/params_1.yaml
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/config/camera_info.yaml
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/config/apriltags.yaml
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/floor.sdf
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/Invoice 5030603.pdf
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/tag1_cube.sdf
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/pxxls_cam.urdf.xacro
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/tag36_11_00003.png
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_camera.stl
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/tag3_cube.dae
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/camera.dae
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/base.dae
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_tilt.stl
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_pan.stl
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_base.stl
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/world.world
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/robot.sdf
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/tag2_cube.sdf
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/tag3_cube.sdf
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/world.sdf
+-- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/__init__.py
+[31mCMake Error at cmake_install.cmake:62 (file):
+  file INSTALL cannot find
+  "/home/tannernelson3/ROS/ros/ros2_ws/src/snuff/worlds": No such file or
+  directory.
+
+[0m

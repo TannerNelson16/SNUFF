@@ -1,0 +1,6 @@
+setup.py
+snuff/__init__.py
+snuff.egg-info/PKG-INFO
+snuff.egg-info/SOURCES.txt
+snuff.egg-info/dependency_links.txt
+snuff.egg-info/top_level.txt

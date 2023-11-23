@@ -1,0 +1,28 @@
+-- Searching required modules
+-- Checking for module 'libv4l2'
+--   Found libv4l2, version 1.22.1
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Found libavcodec: 58.134.100
+-- Found libavutil: 56.70.100
+-- Found libswscale: 5.9.100
+-- Found OpenCV: 4.5.4
+-- Found Video4Linux kernel library: 1.22.1
+[31mCMake Error at CMakeLists.txt:31 (find_package):
+  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "catkin", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "catkin" with any
+  of the following names:
+
+    catkinConfig.cmake
+    catkin-config.cmake
+
+  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+  "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/tanner/ros/ros2_ws/build/usb_cam/CMakeFiles/CMakeOutput.log".

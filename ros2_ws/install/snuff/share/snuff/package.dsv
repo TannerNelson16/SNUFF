@@ -1,0 +1,11 @@
+source;share/snuff/hook/cmake_prefix_path.ps1
+source;share/snuff/hook/cmake_prefix_path.dsv
+source;share/snuff/hook/cmake_prefix_path.sh
+source;share/snuff/hook/pythonpath.ps1
+source;share/snuff/hook/pythonpath.dsv
+source;share/snuff/hook/pythonpath.sh
+source;share/snuff/local_setup.bash
+source;share/snuff/local_setup.dsv
+source;share/snuff/local_setup.ps1
+source;share/snuff/local_setup.sh
+source;share/snuff/local_setup.zsh

@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000176] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000261] (-) JobUnselected: {'identifier': 'robot'}
+[0.000548] (-) EventReactorShutdown: {}

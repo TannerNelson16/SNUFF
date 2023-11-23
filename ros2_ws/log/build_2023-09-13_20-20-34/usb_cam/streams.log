@@ -1,0 +1,33 @@
+[0.368s] Invoking command in '/home/tanner/ros/ros2_ws/build/usb_cam': /usr/bin/cmake /home/tanner/ros/ros2_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tanner/ros/ros2_ws/install/usb_cam
+[0.595s] -- The C compiler identification is GNU 11.4.0
+[0.743s] -- The CXX compiler identification is GNU 11.4.0
+[0.758s] -- Detecting C compiler ABI info
+[0.861s] -- Detecting C compiler ABI info - done
+[0.880s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.881s] -- Detecting C compile features
+[0.882s] -- Detecting C compile features - done
+[0.890s] -- Detecting CXX compiler ABI info
+[1.009s] -- Detecting CXX compiler ABI info - done
+[1.030s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.031s] -- Detecting CXX compile features
+[1.032s] -- Detecting CXX compile features - done
+[1.033s] -- Searching required modules
+[1.041s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.042s] -- Checking for module 'libavcodec'
+[1.061s] --   Found libavcodec, version 58.134.100
+[1.105s] -- Checking for module 'libavutil'
+[1.119s] --   Found libavutil, version 56.70.100
+[1.155s] -- Checking for module 'libswscale'
+[1.170s] --   Found libswscale, version 5.9.100
+[1.206s] -- Checking for module 'libv4l2'
+[1.209s] --   No package 'libv4l2' found
+[1.209s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):
+[1.209s]   A required package was not found
+[1.209s] Call Stack (most recent call first):
+[1.209s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)
+[1.210s]   CMakeLists.txt:10 (pkg_check_modules)
+[1.210s] 
+[1.210s] [0m
+[1.210s] -- Configuring incomplete, errors occurred!
+[1.210s] See also "/home/tanner/ros/ros2_ws/build/usb_cam/CMakeFiles/CMakeOutput.log".
+[1.215s] Invoked command in '/home/tanner/ros/ros2_ws/build/usb_cam' returned '1': /usr/bin/cmake /home/tanner/ros/ros2_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tanner/ros/ros2_ws/install/usb_cam

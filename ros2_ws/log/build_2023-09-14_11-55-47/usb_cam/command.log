@@ -1,0 +1,2 @@
+Invoking command in '/home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam -- -j8 -l8
+Invoked command in '/home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam -- -j8 -l8

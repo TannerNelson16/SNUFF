@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<sdf version='1.8'>
+ <model name='pxxls_cam'>
+
+    <link name='pxxls_cam/base_link'>
+          
+      <inertial>
+        <pose>-0.048669999999999998 0.000785 0.022637999999999998 0 0 0</pose>
+        <mass>10.49715100000000001</mass>
+  <!--      <inertia>
+          <ixx>0.00064429999999999999</ixx>
+          <ixy>2.5060000000000001e-05</ixy>
+          <ixz>0.00060320000000000003</ixz>
+          <iyy>0.0027720000000000002</iyy>
+          <iyz>-7.1748999999999997e-06</iyz>
+          <izz>0.0027209999999999999</izz>
+	    </inertia>-->
+      </inertial>
+      
+      <collision name='pxxls_cam/base_link_collision'>
+       <pose>-0.04 0 0.025 0 0 1.5707963267948959</pose>
+        <geometry>
+          <box>
+                <size>0.12 0.18 0.05</size>
+          </box>
+        </geometry>
+      </collision>
+      
+      <visual name='pxxls_cam/base_link_visual'>
+        <pose>0 0 0 0 0 1.5707963267948959</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>meshes/base.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.05 0.05 0.05 1</diffuse>
+          <ambient>0.05 0.05 0.05 1</ambient>
+          <specular>0.05 0.05 0.05 1</specular>
+        </material>
+      </visual>
+    
+    </link>
+    
+<!--    <joint name='base_joint' type='fixed'>
+        <parent>pxxls_cam/base_link</parent>
+        <child>base_link</child>
+    </joint>-->
+
+    <joint name='pan' type='revolute'>
+      <pose relative_to='pxxls_cam/base_link'>0 0 0.05 0 0 0</pose>
+      <parent>pxxls_cam/base_link</parent>
+      <child>pxxls_cam/pan_link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-3.14</lower>
+          <upper>3.14</upper>
+          <effort>3</effort>
+          <velocity>3.1415926535897931</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    
+    <link name='pxxls_cam/pan_link'>
+    
+      <pose relative_to='pxxls_cam/base_link'>0 0 0.05 0 0 0</pose>
+      
+      <inertial>
+        <pose>-7.9999999999999996e-06 0.00044000000000000002 0.021079000000000001 0 0 1.5707963267948959</pose>
+        <mass>0.100803</mass>  
+        <inertia>
+          <ixx>8.7659999999999998e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>2.3100000000000001e-09</ixz>
+          <iyy>8.5370000000000004e-05</iyy>
+          <iyz>-1.51051e-06</iyz>
+          <izz>2.262e-05</izz>
+        </inertia>
+      </inertial>
+      
+      <collision name='pxxls_cam/pan_link_collision'>
+        <pose>0 0 -0.0022000000000000001 0 0 1.5707963267948959</pose>
+        <geometry>
+          <box>
+            <size>0.042 0.042 0.08</size>
+          </box>
+        </geometry>
+      </collision>
+      
+      <visual name='pxxls_cam/pan_link_visual'>
+        <pose>0 0 -0.0022000000000000001 0 0 1.5707963267948959</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>meshes/pxxls_cam_pan.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.05 0.05 0.05 1</diffuse>
+          <ambient>0.05 0.05 0.05 1</ambient>
+          <specular>0.05 0.05 0.05 1</specular>
+
+        </material>
+      </visual>
+    
+    </link>
+    
+    <joint name='tilt' type='revolute'>
+      <pose relative_to='pxxls_cam/pan_link'>0 0 0.04225 0 0 0</pose>
+      <parent>pxxls_cam/pan_link</parent>
+      <child>pxxls_cam/tilt_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1.570796326794897</lower>
+          <upper>1.570796326794897</upper>
+          <effort>3</effort>
+          <velocity>3.1415926535897931</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+          <damping>1.75</damping>
+	  <friction>0.88</friction>
+
+        </dynamics>
+      </axis>
+    </joint>
+    
+    <link name='pxxls_cam/tilt_link'>
+      
+      <pose relative_to='pxxls_cam/pan_link'>0 0 0.04225 0 0 0</pose>
+      <inertial>
+        <pose>0 9.9999999999999995e-07 0.030349999999999999 0 0 0</pose>
+        <mass>0.064240000000000005</mass>
+        <inertia>
+          <ixx>0.0001009</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>8.4259999999999996e-05</iyy>
+          <iyz>-2.7000000000000002e-09</iyz>
+          <izz>6.2739999999999999e-05</izz>
+        </inertia>
+      </inertial>
+      
+      <collision name='pxxls_cam/tilt_link_collision'>
+        <pose>0.005 0 0.04 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.07 0.08</size>
+          </box>
+        </geometry>
+      </collision>
+      
+      <visual name='pxxls_cam/tilt_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>meshes/pxxls_cam_tilt.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.05 0.05 0.05 1</diffuse>
+          <ambient>0.05 0.05 0.05 1</ambient>
+          <specular>0.05 0.05 0.05 1</specular>
+
+        </material>
+      </visual>
+
+    </link>
+    
+    <link name='camera_body'>
+      
+      <pose relative_to="pxxls_cam/tilt_link">0.031199999999999999 0 0.061499999999999999 -1.5707963267948959 -5.5511151231257827e-17 -1.5707963267948959</pose>
+      <visual name='visual'>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>meshes/camera.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>0.05 0.05 0.05 1</diffuse>
+          <ambient>0.05 0.05 0.05 1</ambient>
+          <specular>0.05 0.05 0.05 1</specular>
+
+        </material>
+      </visual>
+    </link>
+
+
+    <link name='camera'>
+        <pose relative_to="camera_body">0 0 0.0134 1.5708 -1.5708 0</pose>
+        <sensor name="camera" type="camera">
+          <camera>
+            <horizontal_fov>1.047</horizontal_fov>
+            <image>
+              <width>800</width>
+              <height>600</height>
+            </image>
+            <clip>
+              <near>0.1</near>
+              <far>100</far>
+            </clip>
+            <optical_frame_id>camera</optical_frame_id>
+          </camera>
+          <always_on>1</always_on>
+          <update_rate>30</update_rate>
+          <visualize>true</visualize>
+          <topic>camera</topic>  
+	    </sensor>
+    </link>
+
+    <joint name='camera_joint' type='fixed'>
+        <parent>pxxls_cam/tilt_link</parent>
+        <child>camera_body</child>
+    </joint>
+
+    <joint name='camera_optical_joint' type='fixed'>
+        <parent>camera_body</parent>
+        <child>camera</child>
+    </joint>
+    
+    <plugin
+            filename="ignition-gazebo-joint-state-publisher-system"
+            name="ignition::gazebo::systems::JointStatePublisher">
+            
+    </plugin>
+
+    <plugin
+            filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+            <joint_name>pan</joint_name>
+            <topic>pan_cmd</topic>
+            <p_gain>50</p_gain>
+            <d_gain>20</d_gain>
+            <i_gain>0</i_gain>
+            <i_min>-1</i_min>
+            <i_max>1</i_max>
+            <cmd_min>-87</cmd_min>
+            <cmd_max>87</cmd_max>
+   </plugin>
+   <plugin
+            filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+            <joint_name>tilt</joint_name>
+            <topic>tilt_cmd</topic>
+            <p_gain>10000</p_gain>
+            <d_gain>500</d_gain>
+            <i_gain>0</i_gain>
+            <i_min>-1</i_min>
+            <i_max>1</i_max>
+            <cmd_min>-87</cmd_min>
+            <cmd_max>87</cmd_max>
+    </plugin>
+
+  </model>
+
+</sdf>

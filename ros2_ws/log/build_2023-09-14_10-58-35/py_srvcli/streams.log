@@ -1,0 +1,24 @@
+[0.910s] Invoking command in '/home/tannernelson3/ROS/ros/ros2_ws/src/py_srvcli': PYTHONPATH=/home/tannernelson3/ROS/ros/ros2_ws/build/py_srvcli/prefix_override:/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/tannernelson3/ROS/ros/ros2_ws/build/py_srvcli/build install --record /home/tannernelson3/ROS/ros/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[1.193s] running egg_info
+[1.194s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.194s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.195s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.195s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.195s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.202s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.203s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.203s] running build
+[1.204s] running build_py
+[1.204s] running install
+[1.204s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.204s]   warnings.warn(
+[1.205s] running install_lib
+[1.205s] running install_data
+[1.206s] running install_egg_info
+[1.208s] removing '/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[1.208s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.209s] running install_scripts
+[1.231s] Installing client script to /home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.231s] Installing service script to /home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.232s] writing list of installed files to '/home/tannernelson3/ROS/ros/ros2_ws/build/py_srvcli/install.log'
+[1.271s] Invoked command in '/home/tannernelson3/ROS/ros/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/tannernelson3/ROS/ros/ros2_ws/build/py_srvcli/prefix_override:/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/tannernelson3/ROS/ros/ros2_ws/build/py_srvcli/build install --record /home/tannernelson3/ROS/ros/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed

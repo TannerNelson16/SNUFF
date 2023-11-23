@@ -1,0 +1,47 @@
+[0.669s] Invoking command in '/home/tannernelson3/ROS/ros/ros2_ws/build/snuff': CMAKE_PREFIX_PATH=/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/tannernelson3/ROS/ros/ros2_ws/src/snuff -DCMAKE_INSTALL_PREFIX=/home/tannernelson3/ROS/ros/ros2_ws/install/snuff
+[0.941s] -- The C compiler identification is GNU 11.4.0
+[1.165s] -- The CXX compiler identification is GNU 11.4.0
+[1.183s] -- Detecting C compiler ABI info
+[1.330s] -- Detecting C compiler ABI info - done
+[1.349s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.352s] -- Detecting C compile features
+[1.353s] -- Detecting C compile features - done
+[1.357s] -- Detecting CXX compiler ABI info
+[1.542s] -- Detecting CXX compiler ABI info - done
+[1.565s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.566s] -- Detecting CXX compile features
+[1.567s] -- Detecting CXX compile features - done
+[1.580s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.978s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.176s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[2.270s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.303s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.810s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.815s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.007s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.041s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.101s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.370s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[3.425s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[3.502s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[3.502s]   By not providing "Findapriltag_msgs.cmake" in CMAKE_MODULE_PATH this
+[3.502s]   project has asked CMake to find a package configuration file provided by
+[3.502s]   "apriltag_msgs", but CMake did not find one.
+[3.503s] 
+[3.503s]   Could not find a package configuration file provided by "apriltag_msgs"
+[3.503s]   with any of the following names:
+[3.503s] 
+[3.503s]     apriltag_msgsConfig.cmake
+[3.503s]     apriltag_msgs-config.cmake
+[3.504s] 
+[3.504s]   Add the installation prefix of "apriltag_msgs" to CMAKE_PREFIX_PATH or set
+[3.504s]   "apriltag_msgs_DIR" to a directory containing one of the above files.  If
+[3.504s]   "apriltag_msgs" provides a separate development package or SDK, be sure it
+[3.504s]   has been installed.
+[3.505s] 
+[3.505s] [0m
+[3.505s] -- Configuring incomplete, errors occurred!
+[3.505s] See also "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/CMakeFiles/CMakeOutput.log".
+[3.513s] Invoked command in '/home/tannernelson3/ROS/ros/ros2_ws/build/snuff' returned '1': CMAKE_PREFIX_PATH=/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/tannernelson3/ROS/ros/ros2_ws/src/snuff -DCMAKE_INSTALL_PREFIX=/home/tannernelson3/ROS/ros/ros2_ws/install/snuff

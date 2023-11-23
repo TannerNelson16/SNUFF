@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<sdf version='1.9'>
+    <world name="interbotix_cam">
+        <physics name="1ms" type="ignored">
+            <max_step_size>0.001</max_step_size>
+            <real_time_factor>1.0</real_time_factor>
+        </physics>
+    <!--    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+            <robotNamespace>/MYROBOT</robotNamespace>
+            <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+        </plugin> -->
+        <plugin
+            filename="libignition-gazebo-physics-system.so"
+            name="ignition::gazebo::systems::Physics">
+        </plugin>
+        <plugin
+            filename="libignition-gazebo-user-commands-system.so"
+            name="ignition::gazebo::systems::UserCommands">
+        </plugin>
+        <plugin
+            filename="libignition-gazebo-scene-broadcaster-system.so"
+            name="ignition::gazebo::systems::SceneBroadcaster">
+        </plugin>
+        <plugin
+            filename="gz-sim-sensors-system"
+            name="gz::sim::systems::Sensors">
+            <render_engine>ogre2</render_engine>
+        </plugin>
+        <light type="directional" name="sun">
+            <cast_shadows>true</cast_shadows>
+            <pose>0 0 10 0 0 0</pose>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <attenuation>
+                <range>1000</range>
+                <constant>0.9</constant>
+                <linear>0.01</linear>
+                <quadratic>0.001</quadratic>
+            </attenuation>
+            <direction>-0.5 0.1 -0.9</direction>
+        </light>
+        <include>
+            <uri>
+            /home/tannernelson3/ROS/ros/ros2_ws/src/robot/models/robot/tag3_cube.sdf
+            </uri>
+        </include>
+        <include>
+            <uri>
+            /home/tannernelson3/ROS/ros/ros2_ws/src/robot/models/robot/tag2_cube.sdf
+            </uri>
+        </include>
+                <include>
+            <uri>
+            /home/tannernelson3/ROS/ros/ros2_ws/src/robot/models/robot/tag1_cube.sdf
+            </uri>
+        </include>
+        <include>
+            <uri>
+            /home/tannernelson3/ROS/ros/ros2_ws/src/robot/models/robot/robot.sdf
+            </uri>
+        </include>
+        <include>
+            <uri>
+            /home/tannernelson3/ROS/ros/ros2_ws/src/robot/models/robot/floor.sdf
+            </uri>
+        </include>
+
+    </world>
+</sdf>

@@ -1,0 +1,25 @@
+[0.633s] Invoking command in '/home/tannernelson3/ROS/ros/ros2_ws/build/snuff': CMAKE_PREFIX_PATH=/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/tannernelson3/ROS/ros/ros2_ws/src/snuff -DCMAKE_INSTALL_PREFIX=/home/tannernelson3/ROS/ros/ros2_ws/install/snuff
+[0.655s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.996s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[1.064s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.087s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.169s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.576s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.577s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.751s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.992s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[2.036s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[2.099s] -- Found apriltag_msgs: 2.0.1 (/opt/ros/iron/share/apriltag_msgs/cmake)
+[2.269s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[2.269s]   ament_python_install_package() the Python package folder
+[2.270s]   '/home/tannernelson3/ROS/ros/ros2_ws/src/snuff/snuff' doesn't contain an
+[2.270s]   '__init__.py' file
+[2.270s] Call Stack (most recent call first):
+[2.270s]   /opt/ros/iron/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[2.270s]   CMakeLists.txt:45 (ament_python_install_package)
+[2.270s] 
+[2.270s] [0m
+[2.270s] -- Configuring incomplete, errors occurred!
+[2.270s] See also "/home/tannernelson3/ROS/ros/ros2_ws/build/snuff/CMakeFiles/CMakeOutput.log".
+[2.281s] Invoked command in '/home/tannernelson3/ROS/ros/ros2_ws/build/snuff' returned '1': CMAKE_PREFIX_PATH=/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/tannernelson3/ROS/ros/ros2_ws/src/snuff -DCMAKE_INSTALL_PREFIX=/home/tannernelson3/ROS/ros/ros2_ws/install/snuff

@@ -1,0 +1,30 @@
+[0.361s] Invoking command in '/home/tanner/ros/ros2_ws/build/usb_cam': /usr/bin/cmake /home/tanner/ros/ros2_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tanner/ros/ros2_ws/install/usb_cam
+[0.377s] -- Searching required modules
+[0.383s] -- Checking for module 'libv4l2'
+[0.397s] --   Found libv4l2, version 1.22.1
+[0.451s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.451s] -- Found libavcodec: 58.134.100
+[0.451s] -- Found libavutil: 56.70.100
+[0.452s] -- Found libswscale: 5.9.100
+[0.452s] -- Found OpenCV: 4.5.4
+[0.452s] -- Found Video4Linux kernel library: 1.22.1
+[0.464s] [31mCMake Error at CMakeLists.txt:31 (find_package):
+[0.465s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.465s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.465s]   CMake did not find one.
+[0.465s] 
+[0.466s]   Could not find a package configuration file provided by "catkin" with any
+[0.466s]   of the following names:
+[0.466s] 
+[0.466s]     catkinConfig.cmake
+[0.466s]     catkin-config.cmake
+[0.466s] 
+[0.467s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.467s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.467s]   provides a separate development package or SDK, be sure it has been
+[0.467s]   installed.
+[0.467s] 
+[0.467s] [0m
+[0.468s] -- Configuring incomplete, errors occurred!
+[0.468s] See also "/home/tanner/ros/ros2_ws/build/usb_cam/CMakeFiles/CMakeOutput.log".
+[0.469s] Invoked command in '/home/tanner/ros/ros2_ws/build/usb_cam' returned '1': /usr/bin/cmake /home/tanner/ros/ros2_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tanner/ros/ros2_ws/install/usb_cam

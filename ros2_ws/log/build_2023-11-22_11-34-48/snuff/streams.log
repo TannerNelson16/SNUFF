@@ -1,0 +1,69 @@
+[0.689s] Invoking command in '/home/tannernelson3/ROS/ros/ros2_ws/build/snuff': CMAKE_PREFIX_PATH=/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/tannernelson3/ROS/ros/ros2_ws/src/snuff -DCMAKE_INSTALL_PREFIX=/home/tannernelson3/ROS/ros/ros2_ws/install/snuff
+[0.714s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.058s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[1.121s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.133s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.494s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.496s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.710s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.042s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[2.117s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[2.174s] -- Found apriltag_msgs: 2.0.1 (/opt/ros/iron/share/apriltag_msgs/cmake)
+[2.441s] -- Configuring done
+[2.449s] -- Generating done
+[2.451s] -- Build files have been written to: /home/tannernelson3/ROS/ros/ros2_ws/build/snuff
+[2.466s] Invoked command in '/home/tannernelson3/ROS/ros/ros2_ws/build/snuff' returned '0': CMAKE_PREFIX_PATH=/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/tannernelson3/ROS/ros/ros2_ws/src/snuff -DCMAKE_INSTALL_PREFIX=/home/tannernelson3/ROS/ros/ros2_ws/install/snuff
+[2.467s] Invoking command in '/home/tannernelson3/ROS/ros/ros2_ws/build/snuff': CMAKE_PREFIX_PATH=/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/tannernelson3/ROS/ros/ros2_ws/build/snuff -- -j4 -l4
+[2.538s] Built target ament_cmake_python_copy_snuff
+[2.875s] running egg_info
+[2.876s] creating snuff.egg-info
+[2.876s] writing snuff.egg-info/PKG-INFO
+[2.876s] writing dependency_links to snuff.egg-info/dependency_links.txt
+[2.877s] writing top-level names to snuff.egg-info/top_level.txt
+[2.877s] writing manifest file 'snuff.egg-info/SOURCES.txt'
+[2.880s] reading manifest file 'snuff.egg-info/SOURCES.txt'
+[2.880s] writing manifest file 'snuff.egg-info/SOURCES.txt'
+[2.923s] Built target ament_cmake_python_build_snuff_egg
+[2.937s] Invoked command in '/home/tannernelson3/ROS/ros/ros2_ws/build/snuff' returned '0': CMAKE_PREFIX_PATH=/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/tannernelson3/ROS/ros/ros2_ws/build/snuff -- -j4 -l4
+[2.974s] Invoking command in '/home/tannernelson3/ROS/ros/ros2_ws/build/snuff': CMAKE_PREFIX_PATH=/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/tannernelson3/ROS/ros/ros2_ws/build/snuff
+[2.985s] -- Install configuration: ""
+[2.985s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/launch
+[2.985s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/launch/__pycache__
+[2.985s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/launch/__pycache__/robot.launch.cpython-310.pyc
+[2.986s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/launch/robot.launch.py
+[2.986s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/rviz
+[2.987s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/rviz/robot.rviz
+[2.987s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/config
+[2.987s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/config/params_1.yaml
+[2.987s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/config/camera_info.yaml
+[2.987s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/config/apriltags.yaml
+[2.988s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models
+[2.988s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot
+[2.988s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/floor.sdf
+[2.988s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/Invoice 5030603.pdf
+[2.989s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/tag1_cube.sdf
+[2.989s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/pxxls_cam.urdf.xacro
+[2.989s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes
+[2.990s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/tag36_11_00003.png
+[2.990s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_camera.stl
+[2.990s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/tag3_cube.dae
+[2.990s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/camera.dae
+[2.991s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/base.dae
+[2.991s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_tilt.stl
+[2.991s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_pan.stl
+[2.991s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/meshes/pxxls_cam_base.stl
+[2.992s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/world.world
+[2.992s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/robot.sdf
+[2.992s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/tag2_cube.sdf
+[2.992s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/tag3_cube.sdf
+[2.992s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/world.sdf
+[2.992s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/snuff/share/snuff/models/robot/__init__.py
+[2.993s] [31mCMake Error at cmake_install.cmake:62 (file):
+[2.993s]   file INSTALL cannot find
+[2.993s]   "/home/tannernelson3/ROS/ros/ros2_ws/src/snuff/worlds": No such file or
+[2.993s]   directory.
+[2.993s] 
+[2.994s] [0m
+[2.994s] Invoked command in '/home/tannernelson3/ROS/ros/ros2_ws/build/snuff' returned '1': CMAKE_PREFIX_PATH=/home/tannernelson3/ROS/ros/ros2_ws/install/py_srvcli:/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/tannernelson3/ROS/ros/ros2_ws/build/snuff

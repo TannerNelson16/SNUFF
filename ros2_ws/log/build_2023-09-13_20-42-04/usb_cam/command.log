@@ -1,0 +1,6 @@
+Invoking command in '/home/tanner/ros/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/tanner/ros/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake /home/tanner/ros/ros2_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/tanner/ros/ros2_ws/install/usb_cam
+Invoked command in '/home/tanner/ros/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/tanner/ros/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake /home/tanner/ros/ros2_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/tanner/ros/ros2_ws/install/usb_cam
+Invoking command in '/home/tanner/ros/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/tanner/ros/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/tanner/ros/ros2_ws/build/usb_cam -- -j4 -l4
+Invoked command in '/home/tanner/ros/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/tanner/ros/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --build /home/tanner/ros/ros2_ws/build/usb_cam -- -j4 -l4
+Invoking command in '/home/tanner/ros/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/tanner/ros/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --install /home/tanner/ros/ros2_ws/build/usb_cam
+Invoked command in '/home/tanner/ros/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/tanner/ros/ros2_ws/install/py_srvcli:/opt/ros/iron /usr/bin/cmake --install /home/tanner/ros/ros2_ws/build/usb_cam

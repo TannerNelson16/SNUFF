@@ -1,0 +1,4 @@
+source;share/snuff/local_setup.bash
+source;share/snuff/local_setup.dsv
+source;share/snuff/local_setup.sh
+source;share/snuff/local_setup.zsh

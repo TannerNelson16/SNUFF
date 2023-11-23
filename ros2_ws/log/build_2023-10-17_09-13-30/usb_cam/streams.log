@@ -1,0 +1,108 @@
+[0.080s] Invoking command in '/home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam -- -j4 -l4
+[0.126s] -- Found ament_cmake_auto: 2.0.3 (/opt/ros/iron/share/ament_cmake_auto/cmake)
+[0.437s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.449s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.906s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.908s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.066s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.785s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[1.810s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.819s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.837s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.843s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.843s] -- Configured cppcheck include dirs: /home/tannernelson3/ROS/ros/ros2_ws/src/usb_cam/include
+[1.843s] -- Configured cppcheck exclude dirs and/or files: 
+[1.849s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.849s] -- Configured cpplint exclude dirs and/or files: 
+[1.850s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.850s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.852s] -- Added test 'lint_cmake' to check CMake code style
+[1.853s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.858s] -- Added test 'uncrustify' to check C / C++ code style
+[1.858s] -- Configured uncrustify additional arguments: 
+[1.859s] -- Added test 'xmllint' to check XML markup files
+[1.862s] -- Configuring done
+[1.913s] -- Generating done
+[1.917s] -- Build files have been written to: /home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam
+[1.958s] [35m[1mConsolidate compiler generated dependencies of target usb_cam[0m
+[1.958s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.958s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.959s] [35m[1mConsolidate compiler generated dependencies of target usb_cam_node_exe[0m
+[1.995s] [ 14%] Built target gtest_main
+[1.996s] [ 21%] [32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o[0m
+[1.997s] [ 28%] [32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o[0m
+[1.999s] [ 42%] Built target gtest
+[4.145s] [ 50%] [32m[1mLinking CXX shared library libusb_cam.so[0m
+[4.454s] [ 50%] Built target usb_cam
+[4.475s] [35m[1mConsolidate compiler generated dependencies of target test_pixel_formats[0m
+[4.475s] [35m[1mConsolidate compiler generated dependencies of target test_usb_cam_utils[0m
+[4.477s] [35m[1mConsolidate compiler generated dependencies of target usb_cam_node[0m
+[4.502s] [ 64%] [32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o[0m
+[4.502s] [ 64%] [32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o[0m
+[4.522s] [ 71%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o[0m
+[6.294s] [ 78%] [32m[1mLinking CXX executable test_pixel_formats[0m
+[6.561s] [ 85%] [32m[1mLinking CXX executable test_usb_cam_utils[0m
+[6.783s] [ 85%] Built target test_pixel_formats
+[7.008s] [ 85%] Built target test_usb_cam_utils
+[9.047s] [ 92%] [32m[1mLinking CXX executable usb_cam_node_exe[0m
+[9.281s] [ 92%] Built target usb_cam_node_exe
+[13.769s] [100%] [32m[1mLinking CXX shared library libusb_cam_node.so[0m
+[14.177s] [100%] Built target usb_cam_node
+[14.191s] Invoked command in '/home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam -- -j4 -l4
+[14.249s] Invoking command in '/home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam
+[14.259s] -- Install configuration: ""
+[14.259s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/environment/library_path.sh
+[14.259s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[14.260s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[14.261s] -- Set runtime path of "/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""
+[14.262s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib/usb_cam/show_image.py
+[14.263s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib/libusb_cam.so
+[14.265s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib/libusb_cam_node.so
+[14.268s] -- Set runtime path of "/home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib/libusb_cam_node.so" to ""
+[14.268s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include
+[14.268s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam
+[14.268s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[14.269s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/constants.hpp
+[14.269s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/usb_cam.hpp
+[14.269s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/formats
+[14.269s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/formats/mono.hpp
+[14.269s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[14.269s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[14.269s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/formats/m420.hpp
+[14.270s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[14.270s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[14.270s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/formats/utils.hpp
+[14.270s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[14.270s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/conversions.hpp
+[14.270s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/include/usb_cam/utils.hpp
+[14.271s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/lib/libusb_cam_node.so
+[14.271s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/launch
+[14.271s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/launch/camera_config.py
+[14.271s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[14.271s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/launch/__init__.py
+[14.272s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/config
+[14.272s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/config/params_2.yaml
+[14.272s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/config/params_1.yaml
+[14.272s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[14.273s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[14.273s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[14.273s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[14.273s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[14.273s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/environment/path.sh
+[14.273s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/environment/path.dsv
+[14.274s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/local_setup.bash
+[14.274s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/local_setup.sh
+[14.274s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/local_setup.zsh
+[14.274s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/local_setup.dsv
+[14.274s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/package.dsv
+[14.274s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[14.274s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[14.274s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[14.274s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.275s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.275s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[14.275s] -- Up-to-date: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[14.275s] -- Installing: /home/tannernelson3/ROS/ros/ros2_ws/install/usb_cam/share/usb_cam/package.xml
+[14.277s] Invoked command in '/home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/ROS/ros/ros2_ws/build/usb_cam
