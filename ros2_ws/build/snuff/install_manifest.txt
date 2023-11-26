@@ -31,6 +31,7 @@
 /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages/snuff/__init__.py
 /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/snuff/exec.py
 /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/snuff/state_publisher.py
+/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/snuff/dyn_lib.py
 /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/ament_index/resource_index/package_run_dependencies/snuff
 /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/ament_index/resource_index/parent_prefix_path/snuff
 /home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/environment/ament_prefix_path.sh

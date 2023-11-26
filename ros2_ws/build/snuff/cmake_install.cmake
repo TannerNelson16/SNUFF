@@ -90,6 +90,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/snuff" TYPE PROGRAM FILES
     "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/scripts/exec.py"
     "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/scripts/state_publisher.py"
+    "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/scripts/dyn_lib.py"
     )
 endif()
 

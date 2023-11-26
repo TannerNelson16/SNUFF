@@ -48,6 +48,7 @@ install(PROGRAMS
 #scripts/command.py
 scripts/exec.py
 scripts/state_publisher.py
+scripts/dyn_lib.py
 DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -96,7 +96,7 @@ def generate_launch_description():
         #bridge,
         #gz_sim,
         #robot_state_publisher,
-#        executive,
+        executive,
         state_publisher,
         rviz
         
