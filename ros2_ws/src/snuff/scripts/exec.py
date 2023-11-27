@@ -18,29 +18,33 @@ class CameraController(Node):
         )
 
         # Set initial pan and tilt values
-        self.pan_value = 0
+        self.pan_value = 100
         self.tilt_value = 0
-        self.pan_step = 0.5
+        self.pan_step = -0.5
         self.tilt_step = 0.5
+        self.max_pan_angle = 100
+        self.min_pan_angle = -100
+        self.increment = 20
         # Timer for continuous panning
         self.timer = self.create_timer(0.055, self.continuous_panning)
 
     def continuous_panning(self):
         
-        # Define the maximum and minimum pan angles
-        max_pan_angle = 100
-        min_pan_angle = -100
         
         # Adjust pan value for continuous panning
         self.pan_value = self.pan_value + self.pan_step
 
         # Check if the pan value exceeds the maximum or minimum pan angle
-        if self.pan_value >= max_pan_angle or self.pan_value <= min_pan_angle:
+        if self.pan_value >= self.max_pan_angle or self.pan_value <= self.min_pan_angle:
             # Reverse the panning direction
 
             self.pan_step = -self.pan_step
-        
-        # Publish pan command
+            
+       #     if self.tilt_value > 58 or self.tilt_value < -58:
+        #        self.increment = -self.increment 
+       #     self.tilt_value = (self.tilt_value + self.increment)
+       
+       # Publish pan command
         self.publish_pan_tilt()
    
     def apriltag_callback(self, msg):
@@ -53,31 +57,21 @@ class CameraController(Node):
             tag_center_x = detection.centre.x
             tag_center_y = detection.centre.y
             
-           # if self.pan_step < 0:
-            #    self.pan_step = 0
-            #    self.pan_value += -0.1
-            #    self.timer = self.create_timer(1.0, self.continuous_tilting)
-            #if self.pan_step > 0:
-            #    self.pan_step = 0
-            #    self.pan_value += 0.1
-            #    self.timer = self.create_timer(1.0, self.continuous_tilting)
-            #self.timer = self.create_timer(1.0, self.continuous_tilting)
-            print(tag_center_y)
-            if tag_center_x >= 300 and tag_center_x <= 310:
+            if tag_center_x >= 310 and tag_center_x <= 320:
                 self.pan_step = 0
-         #       self.pan_value += -0.05
-         #       print(tag_center_y)
+                if tag_center_y < 250:
+                    self.tilt_step = -self.tilt_step
                 self.timer = self.create_timer(0.1, self.continuous_tilting)
 
-           # if tag_center_x <= 55: 
-           #     self.pan_step = 0
-            #    self.pan_value += 0.05
-            #    print(tag_center_y)
-            #    self.timer = self.create_timer(1.0, self.continuous_tilting)
             
-            if tag_center_y >= 240 and tag_center_y <= 260:
-                self.tilt_step = 0 
-               # self.tilt_value += 0.05
+            if tag_center_y >= 230 and tag_center_y <= 270:
+                self.tilt_step = 0
+                self.pan_value = self.pan_value
+                self.max_pan_angle = (self.pan_value + 10)
+                self.min_pan_angle = (self.pan_value)
+
+                # Adjust pan value for continuous panning
+                self.pan_step = 4
 
             self.publish_pan_tilt()
 
@@ -86,7 +80,7 @@ class CameraController(Node):
         # Define the maximum and minimum pan angles
         max_tilt_angle = 60
         min_tilt_angle = -60
-    
+       
         # Adjust pan value for continuous panning
         self.tilt_value = self.tilt_value + self.tilt_step
 
@@ -99,7 +93,6 @@ class CameraController(Node):
         # Publish pan command
         
         self.publish_pan_tilt()
-    
 
     def publish_pan_tilt(self):
         # Publish pan command
