@@ -1,0 +1,17 @@
+In file included from [01m[K/home/tannernelson3/snuff_ros2/ros2_ws/src/opencv/src/minimal_opencv_ros2_node.cpp:5[m[K:
+[01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/tannernelson3/snuff_ros2/ros2_ws/src/opencv/src/minimal_opencv_ros2_node.cpp:[m[K In constructor ‘[01m[KMinimalImagePublisher::MinimalImagePublisher()[m[K’:
+[01m[K/home/tannernelson3/snuff_ros2/ros2_ws/src/opencv/src/minimal_opencv_ros2_node.cpp:17:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kamp[m[K’ was not declared in this scope
+   17 |         500ms, std::bind(&[01;31m[Kamp[m[K;MinimalImagePublisher::timer_callback, this));
+      |                           [01;31m[K^~~[m[K
+[01m[K/home/tannernelson3/snuff_ros2/ros2_ws/src/opencv/src/minimal_opencv_ros2_node.cpp:17:54:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid MinimalImagePublisher::timer_callback()[m[K’
+   17 |         500ms, std::bind(&amp;[01;31m[KMinimalImagePublisher::timer_callback[m[K, this));
+      |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/tannernelson3/snuff_ros2/ros2_ws/src/opencv/src/minimal_opencv_ros2_node.cpp:21:8:[m[K [01;36m[Knote: [m[Kdeclared here
+   21 |   void [01;36m[Ktimer_callback[m[K() {
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_node.dir/build.make:76: CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/minimal_opencv_ros2_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

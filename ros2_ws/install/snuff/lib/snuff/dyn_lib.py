@@ -4,8 +4,9 @@
 import os
 
 import sys, tty, termios
-fd = sys.stdin.fileno()
-old_settings = termios.tcgetattr(fd)
+
+#fd = sys.stdin.fileno()
+#old_settings = termios.tcgetattr(fd)
 
 from dynamixel_sdk import * # Uses Dynamixel SDK library
 

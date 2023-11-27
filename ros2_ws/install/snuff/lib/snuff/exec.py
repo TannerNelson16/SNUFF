@@ -3,13 +3,12 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 from apriltag_msgs.msg import AprilTagDetectionArray
-from math import sin, cos
+from math import sin, cos, radians
 
 class CameraController(Node):
     def __init__(self):
         super().__init__('camera_controller')
         self.turret_pub = self.create_publisher(String, '/turret', 10)
-       # self.tilt_pub = self.create_publisher(Float64, '/tilt_cmd', 10)
         self.apriltag_sub = self.create_subscription(
             AprilTagDetectionArray,
             '/detections',
@@ -20,11 +19,13 @@ class CameraController(Node):
         # Set initial pan and tilt values
         self.pan_value = 100
         self.tilt_value = 0
+        self.tilt_inc = 20
         self.pan_step = -0.5
         self.tilt_step = 0.5
         self.max_pan_angle = 100
         self.min_pan_angle = -100
-        self.increment = 20
+        self.oscillation_amplitude = 0
+        self.oscillation_frequency = 0
         # Timer for continuous panning
         self.timer = self.create_timer(0.055, self.continuous_panning)
 
@@ -33,16 +34,20 @@ class CameraController(Node):
         
         # Adjust pan value for continuous panning
         self.pan_value = self.pan_value + self.pan_step
-
-        # Check if the pan value exceeds the maximum or minimum pan angle
+       
+#       self.pan_value += self.oscillation_step * sin(radians(self.pan_value))        
+        time = self.get_clock().now().to_msg().sec  # Use time as a basis for oscillation
+        oscillation = self.oscillation_amplitude * sin(self.oscillation_frequency * time)
+        self.pan_value += oscillation# Check if the pan value exceeds the maximum or minimum pan angle
         if self.pan_value >= self.max_pan_angle or self.pan_value <= self.min_pan_angle:
             # Reverse the panning direction
-
+            
             self.pan_step = -self.pan_step
             
-       #     if self.tilt_value > 58 or self.tilt_value < -58:
-        #        self.increment = -self.increment 
-       #     self.tilt_value = (self.tilt_value + self.increment)
+            if self.tilt_value >= 60 or self.tilt_value <=-60:
+                self.tilt_inc = -self.tilt_inc
+
+            self.tilt_value = self.tilt_value + self.tilt_inc
        
        # Publish pan command
         self.publish_pan_tilt()
@@ -59,20 +64,35 @@ class CameraController(Node):
             
             if tag_center_x >= 310 and tag_center_x <= 320:
                 self.pan_step = 0
-                if tag_center_y < 250:
+                if tag_center_y > 250:
                     self.tilt_step = -self.tilt_step
                 self.timer = self.create_timer(0.1, self.continuous_tilting)
 
             
             if tag_center_y >= 230 and tag_center_y <= 270:
                 self.tilt_step = 0
-                self.pan_value = self.pan_value
-                self.max_pan_angle = (self.pan_value + 10)
-                self.min_pan_angle = (self.pan_value)
+                self.oscillation_amplitude = 0.4
+                self.oscillation_frequency = 500000
+         #        self.max_pan_angle = self.pan_value
+          #      self.spray_max = (self.pan_value + 5)
+           #     self.spray_min = (self.pan_value - 5)
+            #    self.timer = self.create_timer(1, self.spray)
+                #self.publish_pan_tilt()
+                #self.pan_value = self.pan_value
+        #        self.max_pan_angle = (self.pan_value + 8)
+         #       self.min_pan_angle = (self.pan_value - 1)
+#                i = 0
+ #               while i < 10:
+ #                   i = i + 1
+ #                   self.pan_value = self.pan_value + 10 
+ #                   self.publish_pan_tilt()
+ #                   self.pan_value = self.pan_value - 10  
+ #                   self.publish_pan_tilt()
 
                 # Adjust pan value for continuous panning
-                self.pan_step = 4
-
+                #self.pan_step = 5
+                self.tilt_inc = 0
+            
             self.publish_pan_tilt()
 
     def continuous_tilting(self):
@@ -93,6 +113,17 @@ class CameraController(Node):
         # Publish pan command
         
         self.publish_pan_tilt()
+
+    def spray(self):
+
+        #max_spray_angle = self.spray_max
+        #min_spray_angle = self.spray_max
+        #spray_inc = 0.5
+        self.pan_value += self.pan_step
+        self.pan_value = self.pan_value + spray_inc
+
+        if self.pan_value >= max_spray_angle or self.pan_value <= min_spray_angle:
+            spray_inc = -spray_inc
 
     def publish_pan_tilt(self):
         # Publish pan command

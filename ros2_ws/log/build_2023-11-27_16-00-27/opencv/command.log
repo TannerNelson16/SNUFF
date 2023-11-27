@@ -1,0 +1,4 @@
+Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/opencv': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tannernelson3/snuff_ros2/ros2_ws/src/opencv -DCMAKE_INSTALL_PREFIX=/home/tannernelson3/snuff_ros2/ros2_ws/install/opencv
+Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/opencv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tannernelson3/snuff_ros2/ros2_ws/src/opencv -DCMAKE_INSTALL_PREFIX=/home/tannernelson3/snuff_ros2/ros2_ws/install/opencv
+Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/opencv': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/opencv -- -j4 -l4
+Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/opencv' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/opencv -- -j4 -l4
