@@ -1,151 +1,81 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
-from apriltag_msgs.msg import AprilTagDetectionArray
-from math import sin, cos, radians
+from cv_bridge import CvBridge
+from sensor_msgs.msg import Image
+import cv2
+import numpy as np
 
-class CameraController(Node):
+class FlameDetectionNode(Node):
     def __init__(self):
-        super().__init__('camera_controller')
-        self.turret_pub = self.create_publisher(String, '/turret', 10)
-        self.apriltag_sub = self.create_subscription(
-            AprilTagDetectionArray,
-            '/detections',
-            self.apriltag_callback,
-            10
-        )
+        super().__init__('flame_detection_node')
+        self.subscription = self.create_subscription(
+            Image,
+            '/image_raw',  # Replace with your actual image topic
+            self.image_callback,
+            10)
+        self.cv_bridge = CvBridge()
 
-        # Set initial pan and tilt values
-        self.pan_value = 100
-        self.tilt_value = 0
-        self.tilt_inc = 20
-        self.pan_step = -0.5
-        self.tilt_step = 0.5
-        self.max_pan_angle = 100
-        self.min_pan_angle = -100
-        self.oscillation_amplitude = 0
-        self.oscillation_frequency = 0
-        # Timer for continuous panning
-        self.timer = self.create_timer(0.055, self.continuous_panning)
+    def image_callback(self, msg):
+        try:
+            # Convert ROS Image message to OpenCV image
+            cv_image = self.cv_bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
 
-    def continuous_panning(self):
-        
-        
-        # Adjust pan value for continuous panning
-        self.pan_value = self.pan_value + self.pan_step
-       
-#       self.pan_value += self.oscillation_step * sin(radians(self.pan_value))        
-        time = self.get_clock().now().to_msg().sec  # Use time as a basis for oscillation
-        oscillation = self.oscillation_amplitude * sin(self.oscillation_frequency * time)
-        self.pan_value += oscillation# Check if the pan value exceeds the maximum or minimum pan angle
-        if self.pan_value >= self.max_pan_angle or self.pan_value <= self.min_pan_angle:
-            # Reverse the panning direction
-            
-            self.pan_step = -self.pan_step
-            
-            if self.tilt_value >= 60 or self.tilt_value <=-60:
-                self.tilt_inc = -self.tilt_inc
+            # Detect flames in the image
+            flame_detected, result_image = self.detect_flame(cv_image)
 
-            self.tilt_value = self.tilt_value + self.tilt_inc
-       
-       # Publish pan command
-        self.publish_pan_tilt()
-   
-    def apriltag_callback(self, msg):
-        # Check if any apriltags are detected
-        if msg.detections:
-            # Assume only one detection for simplicity
-            detection = msg.detections[0]
+            if flame_detected:
+                self.get_logger().info('Flame detected!')
+            else:
+                self.get_logger().info('No flame detected.')
 
-            #'centre' attribute for tag center coordinates
-            tag_center_x = detection.centre.x
-            tag_center_y = detection.centre.y
-            
-            if tag_center_x >= 310 and tag_center_x <= 320:
-                self.pan_step = 0
-                if tag_center_y > 250:
-                    self.tilt_step = -self.tilt_step
-                self.timer = self.create_timer(0.1, self.continuous_tilting)
+            # Display the result image (optional)
+            cv2.imshow('Flame Detection', result_image)
+            cv2.waitKey(1)
 
-            
-            if tag_center_y >= 230 and tag_center_y <= 270:
-                self.tilt_step = 0
-                self.oscillation_amplitude = 0.4
-                self.oscillation_frequency = 500000
-         #        self.max_pan_angle = self.pan_value
-          #      self.spray_max = (self.pan_value + 5)
-           #     self.spray_min = (self.pan_value - 5)
-            #    self.timer = self.create_timer(1, self.spray)
-                #self.publish_pan_tilt()
-                #self.pan_value = self.pan_value
-        #        self.max_pan_angle = (self.pan_value + 8)
-         #       self.min_pan_angle = (self.pan_value - 1)
-#                i = 0
- #               while i < 10:
- #                   i = i + 1
- #                   self.pan_value = self.pan_value + 10 
- #                   self.publish_pan_tilt()
- #                   self.pan_value = self.pan_value - 10  
- #                   self.publish_pan_tilt()
+        except Exception as e:
+            self.get_logger().error('Error processing image: {}'.format(str(e)))
 
-                # Adjust pan value for continuous panning
-                #self.pan_step = 5
-                self.tilt_inc = 0
-            
-            self.publish_pan_tilt()
+    def detect_flame(self, image):
+        # Convert the image to HSV color space
+        hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
-    def continuous_tilting(self):
-    
-        # Define the maximum and minimum pan angles
-        max_tilt_angle = 60
-        min_tilt_angle = -60
-       
-        # Adjust pan value for continuous panning
-        self.tilt_value = self.tilt_value + self.tilt_step
+        # Define a color range for flames in HSV
+        lower_bound = np.array([0, 100, 100], dtype=np.uint8)
+        upper_bound = np.array([20, 255, 255], dtype=np.uint8)
 
-        # Check if the pan value exceeds the maximum or minimum pan angle
-        if self.tilt_value >= max_tilt_angle or self.tilt_value <= min_tilt_angle:
-            # Reverse the panning direction
+        # Create a mask using the color range
+        mask = cv2.inRange(hsv, lower_bound, upper_bound)
 
-            self.tilt_step = -self.tilt_step
-    
-        # Publish pan command
-        
-        self.publish_pan_tilt()
+        # Apply the mask to the original image
+        result = cv2.bitwise_and(image, image, mask=mask)
 
-    def spray(self):
+        # Convert the result to grayscale
+        gray_result = cv2.cvtColor(result, cv2.COLOR_BGR2GRAY)
 
-        #max_spray_angle = self.spray_max
-        #min_spray_angle = self.spray_max
-        #spray_inc = 0.5
-        self.pan_value += self.pan_step
-        self.pan_value = self.pan_value + spray_inc
+        # Threshold the grayscale image
+        _, binary_result = cv2.threshold(gray_result, 50, 255, cv2.THRESH_BINARY)
 
-        if self.pan_value >= max_spray_angle or self.pan_value <= min_spray_angle:
-            spray_inc = -spray_inc
+        # Find contours in the binary image
+        contours, _ = cv2.findContours(binary_result, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
-    def publish_pan_tilt(self):
-        # Publish pan command
-        turret_msg = String()
-        turret_msg.data = f"{self.pan_value} {self.tilt_value}"
-        self.turret_pub.publish(turret_msg)
+        # Check if any contours are found
+        if contours:
+            # Draw bounding boxes around detected flames
+            for contour in contours:
+                x, y, w, h = cv2.boundingRect(contour)
+                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
-        # Publish tilt command
-        #tilt_msg = Float64()
-        #tilt_msg.data = self.tilt_value
-        #self.tilt_pub.publish(tilt_msg)
+            return True, image  # Flame detected
+        else:
+            return False, image  # No flame detected
 
 def main(args=None):
     rclpy.init(args=args)
-
-    camera_controller = CameraController()
-
-    rclpy.spin(camera_controller)
-
-    camera_controller.destroy_node()
+    node = FlameDetectionNode()
+    rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
-
