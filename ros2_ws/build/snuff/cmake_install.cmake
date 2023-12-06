@@ -91,6 +91,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/scripts/exec.py"
     "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/scripts/state_publisher.py"
     "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/scripts/dyn_lib.py"
+    "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/scripts/flame_state_publisher.py"
+    "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/scripts/object_found_sub.py"
+    "/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/scripts/valve.py"
     )
 endif()
 

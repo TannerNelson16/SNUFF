@@ -16,13 +16,8 @@ class CameraController(Node):
             self.flame_info_callback,
             10)
         self.get_logger().info('Flame Info Subscriber Node initialized.')
+        self.publisher = self.create_publisher(String, '/object_found', 10)
 
-     #   self.apriltag_sub = self.create_subscription(
-     #       AprilTagDetectionArray,
-     #       '/detections',
-     #       self.apriltag_callback,
-     #       10
-     #   )
 
         # Set initial pan and tilt values
         self.pan_value = 100
@@ -34,8 +29,11 @@ class CameraController(Node):
         self.min_pan_angle = -100
         self.oscillation_amplitude = 0
         self.oscillation_frequency = 0
+        self.flame_found = 0
         # Timer for continuous panning
         self.timer = self.create_timer(0.055, self.continuous_panning)
+
+        self.timer = self.create_timer(1, self.publish_message)
 
     def continuous_panning(self):
         
@@ -88,26 +86,11 @@ class CameraController(Node):
             
             if tag_center_y >= 230 and tag_center_y <= 270:
                 self.tilt_step = 0
+                self.pan_step = 0
                 self.oscillation_amplitude = 0.4
                 self.oscillation_frequency = 500000
-         #        self.max_pan_angle = self.pan_value
-          #      self.spray_max = (self.pan_value + 5)
-           #     self.spray_min = (self.pan_value - 5)
-            #    self.timer = self.create_timer(1, self.spray)
-                #self.publish_pan_tilt()
-                #self.pan_value = self.pan_value
-        #        self.max_pan_angle = (self.pan_value + 8)
-         #       self.min_pan_angle = (self.pan_value - 1)
-#                i = 0
- #               while i < 10:
- #                   i = i + 1
- #                   self.pan_value = self.pan_value + 10 
- #                   self.publish_pan_tilt()
- #                   self.pan_value = self.pan_value - 10  
- #                   self.publish_pan_tilt()
-
+                self.flame_found = 1
                 # Adjust pan value for continuous panning
-                #self.pan_step = 5
                 self.tilt_inc = 0
             
             self.publish_pan_tilt()
@@ -126,7 +109,7 @@ class CameraController(Node):
             # Reverse the panning direction
 
             self.tilt_step = -self.tilt_step
-    
+         #   self.timer = self.create_timer(1, self.publish_message)
         # Publish pan command
         
         self.publish_pan_tilt()
@@ -152,6 +135,14 @@ class CameraController(Node):
         #tilt_msg = Float64()
         #tilt_msg.data = self.tilt_value
         #self.tilt_pub.publish(tilt_msg)
+
+    def publish_message(self):
+        if self.flame_found > 0:
+            msg = String()
+            msg.data = 'object_found'
+            self.publisher.publish(msg)
+            self.get_logger().info('Published: %s' % msg.data)
+
 
 def main(args=None):
     rclpy.init(args=args)

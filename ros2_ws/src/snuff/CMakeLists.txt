@@ -49,6 +49,9 @@ install(PROGRAMS
 scripts/exec.py
 scripts/state_publisher.py
 scripts/dyn_lib.py
+scripts/flame_state_publisher.py
+scripts/object_found_sub.py
+scripts/valve.py
 DESTINATION lib/${PROJECT_NAME}
 )
 

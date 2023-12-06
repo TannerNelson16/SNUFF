@@ -89,6 +89,17 @@ def generate_launch_description():
         executable='state_publisher.py',
         output='screen'
     )
+    flame_state_publisher = Node(
+        package='snuff',
+        executable='flame_state_publisher.py',
+        output='screen'
+    )
+    object_found_sub = Node(
+        package='snuff',
+        executable='object_found_sub.py',
+        output='screen'
+    )
+
 
     return LaunchDescription([
         camera,
@@ -96,7 +107,9 @@ def generate_launch_description():
         #bridge,
         #gz_sim,
         #robot_state_publisher,
-#        executive,
+        flame_state_publisher,
+        object_found_sub,
+        executive,
         state_publisher,
         rviz
         
