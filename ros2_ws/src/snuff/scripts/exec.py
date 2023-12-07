@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-
+from std_msgs.msg import Int32
 from apriltag_msgs.msg import AprilTagDetectionArray
 from math import sin, cos, radians
 
@@ -17,7 +17,12 @@ class CameraController(Node):
             10)
         self.get_logger().info('Flame Info Subscriber Node initialized.')
         self.publisher = self.create_publisher(String, '/object_found', 10)
-
+        self.ir_sensor_sub = self.create_subscription(
+            Int32,
+            'ir_sensor_data',
+            self.ir_data_callback,
+            10)
+        
 
         # Set initial pan and tilt values
         self.pan_value = 100
@@ -30,10 +35,18 @@ class CameraController(Node):
         self.oscillation_amplitude = 0
         self.oscillation_frequency = 0
         self.flame_found = 0
+        self.ir_data = 1
         # Timer for continuous panning
-        self.timer = self.create_timer(0.055, self.continuous_panning)
+        
+
 
         self.timer = self.create_timer(1, self.publish_message)
+    
+    def ir_data_callback(self, msg):
+        self.ir_data = msg.data
+        self.get_logger().info("Received IR data: %d" % self.ir_data)
+        if self.ir_data == 0:
+            self.timer = self.create_timer(1, self.continuous_panning)
 
     def continuous_panning(self):
         

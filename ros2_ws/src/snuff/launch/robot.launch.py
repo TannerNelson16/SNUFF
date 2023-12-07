@@ -107,9 +107,9 @@ def generate_launch_description():
         #bridge,
         #gz_sim,
         #robot_state_publisher,
-        flame_state_publisher,
-        object_found_sub,
-        executive,
+#        flame_state_publisher,
+#        object_found_sub,
+#        executive,
         state_publisher,
         rviz
         
