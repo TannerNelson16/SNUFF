@@ -1,0 +1,9 @@
+{
+  "package_name": "drive_base_msgs",
+  "non_idl_tuples": [
+    "/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/drive_base/drive_base_msgs:msg/CommandHeader.msg",
+    "/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/drive_base/drive_base_msgs:msg/BaseInfo.msg",
+    "/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/drive_base/drive_base_msgs:msg/CommandStatus.msg",
+    "/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/drive_base/drive_base_msgs:msg/TRVCommand.msg"
+  ]
+}

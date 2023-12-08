@@ -10,7 +10,7 @@ class ArmController(Node):
 
     def __init__(self):
         super().__init__('turret_controller')
-        com="/dev/ttyUSB0"
+        com="/dev/ttyUSB1"
         try:
             self.d=dyn_lib.Dynamixel(DEVICENAME=com, num_joints=2)
             self.d.enable_torque()

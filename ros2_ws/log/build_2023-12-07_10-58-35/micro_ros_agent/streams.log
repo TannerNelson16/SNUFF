@@ -1,0 +1,324 @@
+[0.110s] Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup:/opt/ros/iron LD_LIBRARY_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tannernelson3/snuff_ros2/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent
+[0.118s] Not searching for unused variables given on the command line.
+[0.185s] -- The C compiler identification is GNU 11.4.0
+[0.194s] -- Detecting C compiler ABI info
+[0.279s] -- Detecting C compiler ABI info - done
+[0.289s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.289s] -- Detecting C compile features
+[0.290s] -- Detecting C compile features - done
+[0.358s] -- The CXX compiler identification is GNU 11.4.0
+[0.367s] -- Detecting CXX compiler ABI info
+[0.467s] -- Detecting CXX compiler ABI info - done
+[0.477s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.477s] -- Detecting CXX compile features
+[0.478s] -- Detecting CXX compile features - done
+[0.517s] -- Configuring done
+[0.522s] -- Generating done
+[0.522s] -- Build files have been written to: /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent
+[0.527s] Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup:/opt/ros/iron LD_LIBRARY_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tannernelson3/snuff_ros2/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent
+[0.529s] Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup:/opt/ros/iron LD_LIBRARY_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent -- -j4 -l4
+[0.587s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[0.675s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[0.699s] Cloning into 'xrceagent'...
+[3.116s] Switched to a new branch 'ros2'
+[3.116s] Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.
+[3.181s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[3.692s] HEAD is now at c25243c Enable Domain Override on Reference and XML Participant (#351)
+[3.735s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[3.765s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[3.776s] loading initial cache file /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[3.844s] -- The C compiler identification is GNU 11.4.0
+[3.853s] -- Detecting C compiler ABI info
+[3.936s] -- Detecting C compiler ABI info - done
+[3.946s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.947s] -- Detecting C compile features
+[3.947s] -- Detecting C compile features - done
+[4.013s] -- The CXX compiler identification is GNU 11.4.0
+[4.021s] -- Detecting CXX compiler ABI info
+[4.119s] -- Detecting CXX compiler ABI info - done
+[4.129s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.129s] -- Detecting CXX compile features
+[4.130s] -- Detecting CXX compile features - done
+[4.135s] -- Looking for pthread.h
+[4.223s] -- Looking for pthread.h - found
+[4.223s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.312s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.313s] -- Found Threads: TRUE  
+[4.327s] -- Configuring done
+[4.330s] -- Generating done
+[4.331s] -- Build files have been written to: /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[4.355s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[4.405s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[4.495s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[4.525s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[4.556s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[4.587s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[4.598s] loading initial cache file /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[4.604s] -- Setting build type to 'Release' as none was specified.
+[4.633s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.633s]   The package name passed to `find_package_handle_standard_args` (tinyxml2)
+[4.633s]   does not match the name of the calling package (TinyXML2).  This can lead
+[4.633s]   to problems in calling code that expects `find_package` result variables
+[4.633s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.633s] Call Stack (most recent call first):
+[4.633s]   cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+[4.634s]   /opt/ros/iron/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+[4.634s]   CMakeLists.txt:153 (find_package)
+[4.634s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.634s] [0m
+[4.634s] -- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[4.702s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.712s] -- Configuring done
+[4.725s] -- Generating done
+[4.726s] -- Build files have been written to: /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[4.749s] [ 75%] [34m[1mPerforming build step for 'uagent'[0m
+[4.806s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[4.807s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[4.807s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[4.807s] [  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[14.477s] [ 11%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[17.069s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[19.693s] [ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[22.280s] [ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[24.901s] [ 21%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[24.995s] [ 23%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[27.551s] [ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[29.435s] [ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[32.043s] [ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[32.607s] [ 33%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[33.851s] [ 35%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[35.882s] [ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[37.026s] [ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[37.916s] [ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[38.185s] [ 45%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[40.296s] [ 47%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[44.140s] [ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[44.260s] [ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[44.768s] [ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[45.065s] [ 57%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[45.408s] [ 59%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[52.919s] [ 61%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[53.619s] [ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[53.790s] [ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[56.862s] [ 69%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[61.240s] [ 71%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[63.358s] [ 73%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[63.950s] [ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[64.152s] [ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[69.519s] [ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[71.172s] [ 83%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[71.538s] [ 85%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[71.805s] [ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[72.883s] [ 90%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[75.006s] [ 92%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[77.187s] [ 95%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[77.707s] [ 97%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[91.410s] [100%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[91.863s] [100%] Built target microxrcedds_agent
+[91.894s] [34m[1mNo install step for 'uagent'[0m
+[91.924s] [34m[1mCompleted 'uagent'[0m
+[91.964s] Built target uagent
+[91.996s] [ 43%] [34m[1mPerforming install step for 'xrceagent'[0m
+[92.051s] [35m[1mConsolidate compiler generated dependencies of target microxrcedds_agent[0m
+[92.128s] [100%] Built target microxrcedds_agent
+[92.150s] [36mInstall the project...[0m
+[92.160s] -- Install configuration: "Release"
+[92.160s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1
+[92.165s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4
+[92.165s] -- Set runtime path of "/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1" to ""
+[92.165s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so
+[92.165s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent
+[92.166s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp
+[92.166s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/topic
+[92.166s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp
+[92.166s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/types
+[92.166s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp
+[92.167s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp
+[92.167s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp
+[92.167s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp
+[92.167s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp
+[92.167s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware
+[92.167s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced
+[92.168s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+[92.168s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+[92.168s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast
+[92.168s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+[92.168s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+[92.168s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds
+[92.168s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+[92.169s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+[92.169s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp
+[92.169s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils
+[92.169s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+[92.169s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/logger
+[92.169s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp
+[92.170s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/participant
+[92.170s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp
+[92.170s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/datareader
+[92.170s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp
+[92.170s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/replier
+[92.170s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp
+[92.171s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/processor
+[92.171s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp
+[92.171s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/client
+[92.171s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session
+[92.171s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream
+[92.171s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+[92.171s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+[92.172s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp
+[92.172s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp
+[92.172s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp
+[92.172s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/message
+[92.172s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp
+[92.172s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp
+[92.172s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp
+[92.173s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport
+[92.173s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can
+[92.173s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+[92.173s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom
+[92.173s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+[92.173s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint
+[92.173s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+[92.174s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+[92.174s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+[92.174s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+[92.174s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+[92.174s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+[92.174s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp
+[92.174s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing
+[92.175s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+[92.175s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial
+[92.175s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+[92.175s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+[92.175s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+[92.175s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+[92.175s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+[92.176s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+[92.176s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp
+[92.176s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+[92.176s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+[92.176s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+[92.176s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+[92.176s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery
+[92.177s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+[92.177s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+[92.177s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+[92.177s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp
+[92.177s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+[92.177s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+[92.177s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+[92.178s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+[92.178s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+[92.178s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+[92.178s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util
+[92.178s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+[92.178s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+[92.179s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp
+[92.179s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p
+[92.179s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+[92.179s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+[92.179s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp
+[92.179s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils
+[92.180s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp
+[92.180s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+[92.180s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp
+[92.180s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp
+[92.180s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp
+[92.180s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp
+[92.180s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp
+[92.181s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp
+[92.181s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp
+[92.181s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/publisher
+[92.181s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp
+[92.181s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/reader
+[92.181s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp
+[92.181s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber
+[92.182s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp
+[92.182s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp
+[92.182s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler
+[92.182s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+[92.182s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp
+[92.182s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p
+[92.182s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+[92.182s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp
+[92.183s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/object
+[92.183s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp
+[92.183s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp
+[92.183s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/requester
+[92.183s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp
+[92.183s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter
+[92.183s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp
+[92.184s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp
+[92.184s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+[92.184s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+[92.184s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/include/uxr/agent/config.hpp
+[92.185s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE
+[92.185s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+[92.185s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[92.208s] [ 50%] [34m[1mCompleted 'xrceagent'[0m
+[92.248s] [ 50%] Built target xrceagent
+[92.274s] [ 56%] [34m[1mCreating directories for 'micro_ros_agent'[0m
+[92.360s] [ 62%] [34m[1mNo download step for 'micro_ros_agent'[0m
+[92.390s] [ 68%] [34m[1mNo update step for 'micro_ros_agent'[0m
+[92.420s] [ 75%] [34m[1mNo patch step for 'micro_ros_agent'[0m
+[92.450s] [ 81%] [34m[1mPerforming configure step for 'micro_ros_agent'[0m
+[92.461s] loading initial cache file /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake
+[92.468s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[92.693s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[92.910s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[92.915s] -- Looking for C++ include pthread.h
+[93.024s] -- Looking for C++ include pthread.h - found
+[93.025s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[93.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[93.134s] -- Found Threads: TRUE  
+[93.140s] -- Found rosidl_cmake: 4.0.1 (/opt/ros/iron/share/rosidl_cmake/cmake)
+[93.142s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[93.167s] -- Found fastrtps_cmake_module: 3.0.2 (/opt/ros/iron/share/fastrtps_cmake_module/cmake)
+[93.169s] -- Found rmw_dds_common: 2.0.1 (/opt/ros/iron/share/rmw_dds_common/cmake)
+[93.215s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[93.232s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[93.245s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[93.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[93.293s] -- Found rmw_fastrtps_shared_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_shared_cpp/cmake)
+[93.371s] -- Found FastRTPS: /opt/ros/iron/include  
+[93.373s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[93.376s] -- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[93.377s] -- Found micro_ros_msgs: 4.0.0 (/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[93.486s] -- Configuring done
+[93.499s] -- Generating done
+[93.501s] -- Build files have been written to: /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent
+[93.527s] [ 87%] [34m[1mPerforming build step for 'micro_ros_agent'[0m
+[93.583s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[93.583s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[93.583s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[93.584s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[98.501s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[102.075s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[102.553s] [100%] Built target micro_ros_agent
+[102.584s] [34m[1mNo install step for 'micro_ros_agent'[0m
+[102.613s] [34m[1mCompleted 'micro_ros_agent'[0m
+[102.653s] Built target micro_ros_agent
+[102.667s] Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup:/opt/ros/iron LD_LIBRARY_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent -- -j4 -l4
+[102.710s] Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup:/opt/ros/iron LD_LIBRARY_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent
+[102.719s] -- Install configuration: ""
+[102.719s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[102.719s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[102.720s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[102.720s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[102.720s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[102.720s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[102.721s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[102.721s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[102.721s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[102.721s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[102.721s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[102.721s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[102.722s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[102.722s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[102.722s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[102.722s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[102.722s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[102.725s] -- Set runtime path of "/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[102.725s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[102.725s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[102.727s] Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup:/opt/ros/iron LD_LIBRARY_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent

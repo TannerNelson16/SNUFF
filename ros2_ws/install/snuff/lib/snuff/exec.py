@@ -17,7 +17,7 @@ class CameraController(Node):
             10)
         self.get_logger().info('Flame Info Subscriber Node initialized.')
         self.publisher = self.create_publisher(String, '/object_found', 10)
-        self.ir_sensor_sub = self.creat_subscription(
+        self.ir_sensor_sub = self.create_subscription(
             Int32,
             'ir_sensor_data',
             self.ir_data_callback,
@@ -25,10 +25,10 @@ class CameraController(Node):
         
 
         # Set initial pan and tilt values
-        self.pan_value = 100
+        self.pan_value = 65
         self.tilt_value = 0
         self.tilt_inc = 20
-        self.pan_step = -0.5
+        self.pan_step = -0.05
         self.tilt_step = 0.5
         self.max_pan_angle = 100
         self.min_pan_angle = -100
@@ -37,16 +37,17 @@ class CameraController(Node):
         self.flame_found = 0
         self.ir_data = 1
         # Timer for continuous panning
-        if self.ir_data = 0;
+        
 
-            self.timer = self.create_timer(0.055, self.continuous_panning)
 
+    
+    def ir_data_callback(self, msg):
+        self.ir_data = msg.data
+        self.get_logger().info("Received IR data: %d" % self.ir_data)
+        if self.ir_data == 0:
+            self.timer = self.create_timer(0.05, self.continuous_panning)
             self.timer = self.create_timer(1, self.publish_message)
-    
-    def ir_data_callback(msg):
-        ir_data = msg.data
-        rospy.loginfo("Received IR data: %d", ir_data)
-    
+
     def continuous_panning(self):
         
         

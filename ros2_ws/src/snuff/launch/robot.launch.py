@@ -23,7 +23,12 @@ def generate_launch_description():
 #        launch_arguments={'gz_args': '-r '+os.path.join(robot_path,'/models/world.sdf -s --headless-rendering')}.items(),
 #        launch_arguments={'gz_args': '-r '+os.path.join(robot_path,'models/robot/world.sdf')}.items(),
 #    )
-
+    microros = Node(
+        package='micro_ros_agent',
+        executable = 'micro_ros_agent',
+        name='micro_ros_agent',
+        arguments=["udp4", "-p", "8888", "-v6"]
+    )
     camera = Node(
         package='usb_cam',
         executable='usb_cam_node_exe',
@@ -103,14 +108,12 @@ def generate_launch_description():
 
     return LaunchDescription([
         camera,
-        apriltags,
-        #bridge,
-        #gz_sim,
-        #robot_state_publisher,
-#        flame_state_publisher,
-#        object_found_sub,
-#        executive,
+        microros,
+#        apriltags,
+        flame_state_publisher,
+        object_found_sub,
+        executive,
         state_publisher,
-        rviz
+ #       rviz
         
     ])

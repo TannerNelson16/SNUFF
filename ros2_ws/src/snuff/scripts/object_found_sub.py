@@ -5,7 +5,7 @@ from std_msgs.msg import String
 import subprocess
 
 class ESP32Trigger(Node):
-    def __init__(self, usb_port='/dev/ttyUSB1', baud_rate=115200):
+    def __init__(self, usb_port='/dev/ttyUSB0', baud_rate=115200):
         super().__init__('esp32_trigger')
         self.subscription = self.create_subscription(
             String,

@@ -25,10 +25,10 @@ class CameraController(Node):
         
 
         # Set initial pan and tilt values
-        self.pan_value = 100
+        self.pan_value = 65
         self.tilt_value = 0
         self.tilt_inc = 20
-        self.pan_step = -0.5
+        self.pan_step = -0.05
         self.tilt_step = 0.5
         self.max_pan_angle = 100
         self.min_pan_angle = -100
@@ -40,13 +40,13 @@ class CameraController(Node):
         
 
 
-        self.timer = self.create_timer(1, self.publish_message)
     
     def ir_data_callback(self, msg):
         self.ir_data = msg.data
         self.get_logger().info("Received IR data: %d" % self.ir_data)
         if self.ir_data == 0:
-            self.timer = self.create_timer(1, self.continuous_panning)
+            self.timer = self.create_timer(0.05, self.continuous_panning)
+            self.timer = self.create_timer(1, self.publish_message)
 
     def continuous_panning(self):
         

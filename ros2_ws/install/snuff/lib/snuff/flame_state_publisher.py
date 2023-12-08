@@ -44,8 +44,7 @@ class FlameDetectionNode(Node):
                 # Display the result image with bounding boxes
                 cv2.imshow('Flame Detection', result_image)
                 cv2.waitKey(1)
-            else:
-                self.get_logger().info('No flame detected.')
+            
 
         except Exception as e:
             self.get_logger().error('Error processing image: {}'.format(str(e)))
