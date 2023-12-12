@@ -1,0 +1,212 @@
+[0.370s] Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs -- -j4 -l4
+[0.535s] [  1%] Built target drive_base_msgs__rosidl_generator_type_description
+[0.594s] [  1%] Built target ament_cmake_python_copy_drive_base_msgs
+[0.636s] [  3%] Built target drive_base_msgs__cpp
+[0.643s] [ 25%] Built target drive_base_msgs__rosidl_generator_c
+[0.814s] [ 34%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[0.830s] [ 43%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[0.871s] [ 53%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[0.983s] [ 62%] Built target drive_base_msgs__rosidl_typesupport_c
+[1.032s] [ 71%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[1.070s] [ 81%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[1.138s] [ 81%] Built target drive_base_msgs
+[1.218s] [ 82%] Built target drive_base_msgs__py
+[1.342s] [ 90%] Built target drive_base_msgs__rosidl_generator_py
+[1.495s] [ 93%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.517s] [ 96%] Built target drive_base_msgs__rosidl_typesupport_introspection_c__pyext
+[1.538s] [100%] Built target drive_base_msgs__rosidl_typesupport_c__pyext
+[1.619s] running egg_info
+[1.621s] writing drive_base_msgs.egg-info/PKG-INFO
+[1.621s] writing dependency_links to drive_base_msgs.egg-info/dependency_links.txt
+[1.622s] writing top-level names to drive_base_msgs.egg-info/top_level.txt
+[1.626s] reading manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[1.630s] writing manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[1.671s] [100%] Built target ament_cmake_python_build_drive_base_msgs_egg
+[1.744s] Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs -- -j4 -l4
+[2.142s] Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs
+[2.160s] -- Install configuration: ""
+[2.163s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs
+[2.163s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.json
+[2.164s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.json
+[2.164s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.json
+[2.164s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.json
+[2.168s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[2.168s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[2.169s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.h
+[2.169s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.h
+[2.170s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.170s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.h
+[2.170s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[2.171s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.h
+[2.171s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.h
+[2.172s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.c
+[2.173s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.h
+[2.173s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__description.c
+[2.174s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.c
+[2.174s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__description.c
+[2.181s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.c
+[2.181s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.c
+[2.181s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.h
+[2.181s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.h
+[2.182s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.h
+[2.182s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.h
+[2.183s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.h
+[2.183s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.h
+[2.184s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__description.c
+[2.184s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.h
+[2.184s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.c
+[2.188s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.h
+[2.189s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.c
+[2.189s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.h
+[2.189s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.c
+[2.190s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.c
+[2.190s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__description.c
+[2.191s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.h
+[2.191s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh
+[2.192s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv
+[2.194s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so
+[2.194s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[2.194s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[2.195s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.195s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[2.195s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h
+[2.205s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h
+[2.206s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h
+[2.206s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h
+[2.206s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so
+[2.207s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[2.207s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[2.207s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.hpp
+[2.207s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.hpp
+[2.207s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.hpp
+[2.208s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.hpp
+[2.208s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[2.208s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__builder.hpp
+[2.208s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__builder.hpp
+[2.209s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.hpp
+[2.209s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__builder.hpp
+[2.209s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__traits.hpp
+[2.209s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__traits.hpp
+[2.210s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.hpp
+[2.210s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.hpp
+[2.210s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__traits.hpp
+[2.210s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.hpp
+[2.210s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__builder.hpp
+[2.211s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__traits.hpp
+[2.212s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[2.212s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[2.212s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.212s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[2.213s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/dds_fastrtps
+[2.213s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.213s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.213s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp
+[2.213s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.214s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.215s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[2.215s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[2.215s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.215s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[2.215s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.c
+[2.218s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h
+[2.218s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h
+[2.219s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h
+[2.219s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.c
+[2.219s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.c
+[2.219s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.c
+[2.219s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h
+[2.219s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so
+[2.220s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so
+[2.220s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[2.220s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[2.220s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[2.220s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp
+[2.220s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp
+[2.221s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.cpp
+[2.221s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp
+[2.221s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.cpp
+[2.231s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.cpp
+[2.231s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp
+[2.232s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.cpp
+[2.232s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so
+[2.232s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so
+[2.232s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh
+[2.232s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv
+[2.233s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs-0.0.0-py3.10.egg-info
+[2.233s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.233s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.233s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.233s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.234s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs
+[2.234s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg
+[2.235s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_base_info_s.c
+[2.235s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_command_header.py
+[2.236s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_base_info.py
+[2.236s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_command_status_s.c
+[2.236s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_trv_command_s.c
+[2.236s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_command_header_s.c
+[2.237s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_command_status.py
+[2.238s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/_trv_command.py
+[2.238s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg/__init__.py
+[2.238s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.239s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/libdrive_base_msgs__rosidl_generator_py.so
+[2.239s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.240s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.241s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.241s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.241s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c
+[2.242s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/__init__.py
+[2.261s] Listing '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs'...
+[2.262s] Listing '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/msg'...
+[2.270s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.271s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.272s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.273s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_py.so
+[2.273s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl
+[2.275s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl
+[2.276s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl
+[2.277s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl
+[2.277s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg
+[2.277s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg
+[2.278s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg
+[2.278s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg
+[2.278s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs
+[2.279s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs
+[2.279s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh
+[2.280s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv
+[2.281s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh
+[2.282s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv
+[2.282s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash
+[2.283s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh
+[2.285s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh
+[2.286s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv
+[2.287s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv
+[2.290s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs
+[2.293s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport.cmake
+[2.294s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.294s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.294s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.295s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cppExport.cmake
+[2.296s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.297s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.297s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.297s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.298s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake
+[2.299s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.300s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.300s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.301s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake
+[2.302s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.302s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport.cmake
+[2.302s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.303s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake
+[2.304s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.304s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.304s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.304s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.305s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.305s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.306s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake
+[2.306s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake
+[2.306s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml
+[2.404s] Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs

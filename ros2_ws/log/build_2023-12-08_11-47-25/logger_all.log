@@ -1,0 +1,601 @@
+[1.509s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.509s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4e0cc778b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4e0cc6b580>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4e0cc6b580>>)
+[1.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.579s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tannernelson3/snuff_ros2/ros2_ws'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[1.600s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/snuff) by extensions ['ignore', 'ignore_ament_install']
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/snuff) by extension 'ignore'
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/snuff) by extension 'ignore_ament_install'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/snuff) by extensions ['colcon_pkg']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/snuff) by extension 'colcon_pkg'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/snuff) by extensions ['colcon_meta']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/snuff) by extension 'colcon_meta'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/snuff) by extensions ['ros']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/snuff) by extension 'ros'
+[1.601s] DEBUG:colcon.colcon_core.package_identification:Package 'src/snuff' with type 'ros.ament_cmake' and name 'snuff'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore_ament_install'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_pkg']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_pkg'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_meta']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_meta'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ros']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ros'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['cmake', 'python']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'cmake'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['python_setup_py']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python_setup_py'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[1.605s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[1.608s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[1.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[1.612s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore_ament_install'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_pkg']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_pkg'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_meta']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_meta'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ros']
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ros'
+[1.615s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.800s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/tannernelson3/snuff_ros2/ros2_ws/install
+[1.823s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/iron
+[1.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_args' from command line to 'None'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target' from command line to 'None'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.957s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.957s] DEBUG:colcon.colcon_core.verb:Building package 'drive_base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs', 'merge_install': False, 'path': '/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/drive_base/drive_base_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.980s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[1.980s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[1.980s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.980s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.980s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.980s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.980s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.980s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.980s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.980s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.003s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/tannernelson3/snuff_ros2/ros2_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[2.026s] Level 5:colcon.colcon_core.verb:set package 'snuff' build argument 'cmake_args' from command line to 'None'
+[2.026s] Level 5:colcon.colcon_core.verb:set package 'snuff' build argument 'cmake_target' from command line to 'None'
+[2.026s] Level 5:colcon.colcon_core.verb:set package 'snuff' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.026s] Level 5:colcon.colcon_core.verb:set package 'snuff' build argument 'cmake_clean_cache' from command line to 'False'
+[2.026s] Level 5:colcon.colcon_core.verb:set package 'snuff' build argument 'cmake_clean_first' from command line to 'False'
+[2.026s] Level 5:colcon.colcon_core.verb:set package 'snuff' build argument 'cmake_force_configure' from command line to 'False'
+[2.026s] Level 5:colcon.colcon_core.verb:set package 'snuff' build argument 'ament_cmake_args' from command line to 'None'
+[2.026s] Level 5:colcon.colcon_core.verb:set package 'snuff' build argument 'catkin_cmake_args' from command line to 'None'
+[2.026s] Level 5:colcon.colcon_core.verb:set package 'snuff' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.026s] DEBUG:colcon.colcon_core.verb:Building package 'snuff' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff', 'merge_install': False, 'path': '/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff', 'symlink_install': False, 'test_result_base': None}
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.049s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam', 'merge_install': False, 'path': '/home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam', 'symlink_install': False, 'test_result_base': None}
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[2.072s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.072s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[2.094s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.118s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.118s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[2.118s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/micro_ros_msgs'
+[2.144s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.216s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/drive_base/drive_base_msgs' with build type 'ament_cmake'
+[2.216s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/drive_base/drive_base_msgs'
+[2.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tannernelson3/snuff_ros2/ros2_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[2.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tannernelson3/snuff_ros2/ros2_ws/src/micro_ros_setup'
+[2.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.408s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff' with build type 'ament_cmake'
+[2.408s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tannernelson3/snuff_ros2/ros2_ws/src/snuff'
+[2.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs -- -j4 -l4
+[2.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs -- -j4 -l4
+[2.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_setup -- -j4 -l4
+[2.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff -- -j4 -l4
+[2.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_setup -- -j4 -l4
+[2.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_setup
+[2.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[2.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_setup
+[2.974s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup' for CMake module files
+[2.975s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup' for CMake config files
+[2.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[3.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[3.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[3.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[3.108s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/lib'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/bin'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[3.110s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/bin'
+[3.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[3.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[3.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[3.505s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup' for CMake module files
+[3.506s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup' for CMake config files
+[3.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[3.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[3.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[3.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[3.559s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/lib'
+[3.559s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/bin'
+[3.559s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[3.560s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[3.561s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/bin'
+[3.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[3.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[3.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.615s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam' with build type 'ament_cmake'
+[3.615s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tannernelson3/snuff_ros2/ros2_ws/src/usb_cam'
+[3.648s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.648s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs -- -j4 -l4
+[3.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam -- -j4 -l4
+[3.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff -- -j4 -l4
+[3.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs -- -j4 -l4
+[3.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff
+[3.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(snuff)
+[3.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/snuff' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/snuff
+[4.022s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff' for CMake module files
+[4.023s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff' for CMake config files
+[4.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('snuff', 'cmake_prefix_path')
+[4.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/hook/cmake_prefix_path.ps1'
+[4.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/hook/cmake_prefix_path.dsv'
+[4.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/hook/cmake_prefix_path.sh'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/bin'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/pkgconfig/snuff.pc'
+[4.064s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages'
+[4.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('snuff', 'pythonpath')
+[4.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/hook/pythonpath.ps1'
+[4.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/hook/pythonpath.dsv'
+[4.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/hook/pythonpath.sh'
+[4.092s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/bin'
+[4.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.ps1'
+[4.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.dsv'
+[4.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.sh'
+[4.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.bash'
+[4.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.zsh'
+[4.122s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/colcon-core/packages/snuff)
+[4.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs
+[4.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs
+[4.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam -- -j4 -l4
+[4.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(snuff)
+[4.297s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff' for CMake module files
+[4.298s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff' for CMake config files
+[4.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('snuff', 'cmake_prefix_path')
+[4.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/hook/cmake_prefix_path.ps1'
+[4.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/hook/cmake_prefix_path.dsv'
+[4.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/hook/cmake_prefix_path.sh'
+[4.323s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib'
+[4.323s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/bin'
+[4.323s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/pkgconfig/snuff.pc'
+[4.323s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages'
+[4.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('snuff', 'pythonpath')
+[4.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/hook/pythonpath.ps1'
+[4.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/hook/pythonpath.dsv'
+[4.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/hook/pythonpath.sh'
+[4.348s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/bin'
+[4.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.ps1'
+[4.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.dsv'
+[4.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.sh'
+[4.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.bash'
+[4.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/snuff/package.zsh'
+[4.375s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/share/colcon-core/packages/snuff)
+[4.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[4.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs
+[4.401s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs' for CMake module files
+[4.402s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs' for CMake config files
+[4.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[4.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[4.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[4.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[4.426s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib'
+[4.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[4.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[4.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[4.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/bin'
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[4.452s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[4.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[4.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[4.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[4.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[4.476s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/bin'
+[4.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[4.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[4.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[4.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[4.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[4.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[4.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam
+[4.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[4.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/drive_base_msgs
+[4.537s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs' for CMake module files
+[4.537s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs' for CMake config files
+[4.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[4.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[4.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[4.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[4.567s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib'
+[4.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[4.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[4.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[4.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[4.596s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/bin'
+[4.596s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[4.596s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages'
+[4.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[4.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[4.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[4.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[4.641s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/bin'
+[4.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[4.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[4.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[4.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[4.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[4.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[4.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs' for CMake module files
+[4.732s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs' for CMake config files
+[4.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[4.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[4.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[4.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[4.761s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib'
+[4.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[4.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[4.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[4.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[4.791s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/bin'
+[4.791s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[4.791s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[4.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[4.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/bin'
+[4.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[4.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[4.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[4.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[4.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[4.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[4.854s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[4.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/usb_cam
+[4.878s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam' for CMake module files
+[4.879s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam' for CMake config files
+[4.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[4.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[4.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[4.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[4.904s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib'
+[4.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[4.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[4.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[4.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[4.928s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/bin'
+[4.928s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[4.929s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib/python3.10/site-packages'
+[4.929s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/bin'
+[4.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/package.ps1'
+[4.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/package.dsv'
+[4.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/package.sh'
+[4.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/package.bash'
+[4.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/package.zsh'
+[4.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/colcon-core/packages/usb_cam)
+[4.957s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[4.957s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tannernelson3/snuff_ros2/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[4.983s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.983s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[5.105s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs' for CMake module files
+[5.106s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs' for CMake config files
+[5.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[5.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[5.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[5.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[5.131s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib'
+[5.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[5.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[5.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[5.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[5.156s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/bin'
+[5.156s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages'
+[5.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[5.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[5.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[5.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[5.181s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/bin'
+[5.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[5.205s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[5.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[5.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[5.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[5.207s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[5.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[5.256s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam' for CMake module files
+[5.256s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam' for CMake config files
+[5.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[5.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[5.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[5.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[5.281s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib'
+[5.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[5.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[5.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[5.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[5.306s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/bin'
+[5.306s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[5.306s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib/python3.10/site-packages'
+[5.306s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/bin'
+[5.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/package.ps1'
+[5.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/package.dsv'
+[5.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/package.sh'
+[5.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/package.bash'
+[5.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/usb_cam/package.zsh'
+[5.332s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/share/colcon-core/packages/usb_cam)
+[5.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent:/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib:/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages:/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent -- -j4 -l4
+[5.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent:/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib:/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages:/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent -- -j4 -l4
+[5.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent:/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib:/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages:/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent
+[5.481s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[5.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_setup:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent:/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib:/home/tannernelson3/snuff_ros2/ros2_ws/install/usb_cam/lib:/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib:/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages:/home/tannernelson3/snuff_ros2/ros2_ws/install/snuff/lib/python3.10/site-packages:/home/tannernelson3/snuff_ros2/ros2_ws/install/drive_base_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_agent
+[5.505s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent' for CMake module files
+[5.506s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent' for CMake config files
+[5.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[5.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[5.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[5.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[5.531s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib'
+[5.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[5.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[5.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[5.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[5.556s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/bin'
+[5.556s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[5.557s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[5.557s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/bin'
+[5.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[5.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[5.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[5.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[5.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[5.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[5.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[5.672s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent' for CMake module files
+[5.673s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent' for CMake config files
+[5.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[5.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[5.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[5.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[5.698s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib'
+[5.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[5.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[5.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[5.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[5.723s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/bin'
+[5.723s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[5.723s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[5.723s] Level 1:colcon.colcon_core.environment:checking '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/bin'
+[5.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[5.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[5.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[5.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[5.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[5.750s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[5.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.751s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.781s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.781s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.781s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.792s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.815s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tannernelson3/snuff_ros2/ros2_ws/install/local_setup.ps1'
+[5.816s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tannernelson3/snuff_ros2/ros2_ws/install/_local_setup_util_ps1.py'
+[5.818s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tannernelson3/snuff_ros2/ros2_ws/install/setup.ps1'
+[5.842s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tannernelson3/snuff_ros2/ros2_ws/install/local_setup.sh'
+[5.843s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tannernelson3/snuff_ros2/ros2_ws/install/_local_setup_util_sh.py'
+[5.843s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tannernelson3/snuff_ros2/ros2_ws/install/setup.sh'
+[5.867s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tannernelson3/snuff_ros2/ros2_ws/install/local_setup.bash'
+[5.867s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tannernelson3/snuff_ros2/ros2_ws/install/setup.bash'
+[5.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tannernelson3/snuff_ros2/ros2_ws/install/local_setup.zsh'
+[5.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tannernelson3/snuff_ros2/ros2_ws/install/setup.zsh'

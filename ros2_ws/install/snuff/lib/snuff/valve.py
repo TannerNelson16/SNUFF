@@ -1,5 +1,6 @@
 import machine
 import time
+import sys
 
 # Define GPIO pins
 in1_pin = 26    
@@ -28,7 +29,7 @@ def close_valve():
 
 open_valve()
 print("Valve Open")
-time.sleep(10) 
+time.sleep(8) 
 close_valve()
 print("Valve Closed")
-
+sys.exit(0)

@@ -55,11 +55,12 @@ class FlameDetectionNode(Node):
         hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
         # Define a color range for flames in HSV
-        lower_bound = np.array([18, 50, 225], dtype=np.uint8)
-        upper_bound = np.array([35, 255, 255], dtype=np.uint8)
-
- #       lower_bound = np.array([0, 0, 200], dtype=np.uint8)
-#        upper_bound = np.array([179, 30, 255], dtype=np.uint8)
+        # Uncomment for Bright Areas
+      #  lower_bound = np.array([18, 0, 210], dtype=np.uint8)
+      #  upper_bound = np.array([35, 50, 255], dtype=np.uint8)
+        #Uncomment for Dark Areas
+        lower_bound = np.array([0, 0, 255], dtype=np.uint8)
+        upper_bound = np.array([0, 30, 255], dtype=np.uint8)
         # Create a mask using the color range
         mask = cv2.inRange(hsv, lower_bound, upper_bound)
 
@@ -94,7 +95,7 @@ class FlameDetectionNode(Node):
                 hull = cv2.convexHull(contour)
                 convexity = area / cv2.contourArea(hull) if cv2.contourArea(hull) != 0 else 0
                 # Adjust the threshold for the bounding box area
-                if 300> area > 35:# and convexity < 0.875:# and 0.1 < aspect_ratio < 3.5: # Adjust this threshold based on your scene
+                if area > 100:# and convexity < 0.875:# and 0.1 < aspect_ratio < 3.5: # Adjust this threshold based on your scene
 
                     #convexity < 0.84
                     cv2.rectangle(result_image, (x, y), (x + w, y + h), (0, 255, 0), 2)

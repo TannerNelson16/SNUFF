@@ -1,0 +1,190 @@
+[0.491s] Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs -- -j4 -l4
+[0.675s] [  1%] Built target micro_ros_msgs__rosidl_generator_type_description
+[0.709s] [  1%] Built target ament_cmake_python_copy_micro_ros_msgs
+[0.755s] [  3%] Built target micro_ros_msgs__cpp
+[0.778s] [ 24%] Built target micro_ros_msgs__rosidl_generator_c
+[0.961s] [ 33%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[0.976s] [ 42%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[1.035s] [ 51%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[1.153s] [ 61%] Built target micro_ros_msgs__rosidl_typesupport_c
+[1.175s] [ 70%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[1.189s] [ 79%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[1.303s] [ 79%] Built target micro_ros_msgs
+[1.410s] [ 81%] Built target micro_ros_msgs__py
+[1.573s] [ 88%] Built target micro_ros_msgs__rosidl_generator_py
+[1.711s] [ 92%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.727s] [ 96%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[1.735s] [100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[1.827s] running egg_info
+[1.828s] writing micro_ros_msgs.egg-info/PKG-INFO
+[1.829s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[1.829s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[1.832s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[1.834s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[1.876s] [100%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[1.899s] Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs -- -j4 -l4
+[2.263s] Invoking command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs
+[2.280s] -- Install configuration: ""
+[2.280s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[2.281s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json
+[2.281s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json
+[2.282s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json
+[2.283s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[2.283s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[2.283s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[2.284s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[2.284s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.284s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[2.284s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[2.285s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[2.285s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[2.285s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__description.c
+[2.286s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[2.286s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[2.286s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[2.286s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[2.286s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[2.287s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__description.c
+[2.287s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[2.287s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[2.287s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__description.c
+[2.287s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[2.287s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[2.288s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[2.288s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[2.288s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[2.289s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[2.289s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[2.289s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[2.290s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[2.290s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[2.291s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[2.291s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.291s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[2.292s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[2.292s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[2.292s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[2.294s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[2.294s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[2.295s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[2.295s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.295s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[2.295s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[2.295s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[2.296s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[2.296s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[2.297s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[2.297s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[2.301s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[2.303s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[2.304s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[2.305s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[2.305s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[2.306s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[2.306s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[2.307s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[2.307s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[2.308s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[2.308s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[2.309s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[2.309s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[2.309s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[2.310s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[2.314s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[2.315s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[2.315s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[2.315s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[2.316s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.316s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[2.316s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[2.316s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[2.317s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[2.317s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[2.321s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.321s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[2.321s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[2.322s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[2.322s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[2.322s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[2.322s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[2.322s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[2.323s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[2.323s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[2.336s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[2.337s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[2.340s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[2.340s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[2.340s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info
+[2.341s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info/PKG-INFO
+[2.341s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info/dependency_links.txt
+[2.341s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info/SOURCES.txt
+[2.343s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs-4.0.0-py3.10.egg-info/top_level.txt
+[2.343s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs
+[2.343s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.343s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg
+[2.345s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_entity_s.c
+[2.345s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_entity.py
+[2.345s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_graph.py
+[2.345s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_node_s.c
+[2.346s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_graph_s.c
+[2.346s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/__init__.py
+[2.346s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg/_node.py
+[2.346s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[2.346s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.346s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.347s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so
+[2.347s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.347s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.347s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/__init__.py
+[2.391s] Listing '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs'...
+[2.392s] Listing '/home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/msg'...
+[2.402s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.405s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.410s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/python3.10/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.414s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[2.416s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[2.417s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[2.417s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[2.418s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[2.418s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[2.418s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[2.419s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[2.419s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[2.419s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[2.420s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[2.420s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[2.420s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[2.420s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[2.421s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[2.421s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[2.421s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[2.422s] -- Installing: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[2.423s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[2.424s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[2.424s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.425s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.425s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.427s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.427s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.428s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[2.429s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.430s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[2.430s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.431s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.432s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.432s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.435s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[2.435s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.436s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[2.436s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.436s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[2.437s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.437s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.437s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.437s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.438s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.438s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.438s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[2.439s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[2.439s] -- Up-to-date: /home/tannernelson3/snuff_ros2/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[2.675s] Invoked command in '/home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/tannernelson3/snuff_ros2/ros2_ws/build/micro_ros_msgs

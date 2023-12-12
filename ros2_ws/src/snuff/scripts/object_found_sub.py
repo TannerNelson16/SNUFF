@@ -24,7 +24,7 @@ class ESP32Trigger(Node):
     def trigger_micro_python_script(self):
         try:
             # Run the ampy command to execute the MicroPython script on the ESP32
-            command = f'ampy --port {self.usb_port} run valve.py'
+            command = f'ampy --port {self.usb_port} run /home/tannernelson3/snuff_ros2/ros2_ws/src/snuff/scripts/valve.py'
             subprocess.run(command, shell=True, check=True)
             
             self.get_logger().info('MicroPython script executed on ESP32')
