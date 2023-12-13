@@ -95,7 +95,7 @@ class FlameDetectionNode(Node):
                 hull = cv2.convexHull(contour)
                 convexity = area / cv2.contourArea(hull) if cv2.contourArea(hull) != 0 else 0
                 # Adjust the threshold for the bounding box area
-                if area > 100:# and convexity < 0.875:# and 0.1 < aspect_ratio < 3.5: # Adjust this threshold based on your scene
+                if 650 > area > 100:# and convexity < 0.875:# and 0.1 < aspect_ratio < 3.5: # Adjust this threshold based on your scene
 
                     #convexity < 0.84
                     cv2.rectangle(result_image, (x, y), (x + w, y + h), (0, 255, 0), 2)

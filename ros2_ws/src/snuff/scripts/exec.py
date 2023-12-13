@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import time
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
@@ -17,18 +18,19 @@ class CameraController(Node):
             10)
         self.get_logger().info('Flame Info Subscriber Node initialized.')
         self.publisher = self.create_publisher(String, '/object_found', 10)
- #       self.ir_sensor_sub = self.create_subscription(
- #           Int32,
- #           'ir_sensor_data',
- #           self.ir_data_callback,
- #           10)
+        self.ir_sensor_sub = self.create_subscription(
+            Int32,
+            'ir_sensor_data',
+            self.ir_data_callback,
+            10)
         
 
         # Set initial pan and tilt variable values
+        self.activate = 0
         self.shutdown_timer = None
         self.pan_value = 99
         self.tilt_value = 0
-        self.tilt_inc = 20
+        self.tilt_inc = 15
         self.pan_step = -0.5
         self.tilt_step = -0.5
         self.max_pan_angle = 100
@@ -37,20 +39,19 @@ class CameraController(Node):
         self.oscillation_frequency = 0
         self.flame_found = 0
         self.ir_data = 1
-      
+        self.publish_pan_tilt()     
         # Start continuous panning
-        self.timer = self.create_timer(0.1, self.continuous_panning)
+ #       self.timer = self.create_timer(0.1, self.continuous_panning)
         # Start continuous publishing of 
-        self.timer = self.create_timer(1, self.publish_message)
-
+ #       self.timer = self.create_timer(1, self.publish_message)
     
-#    def ir_data_callback(self, msg):
-#        self.ir_data = msg.data
-#        self.get_logger().info("Received IR data: %d" % self.ir_data)
-#        if self.ir_data == 0:
-#            self.timer = self.create_timer(0.05, self.continuous_panning)
-#            self.timer = self.create_timer(1, self.publish_message)
-
+    def ir_data_callback(self, msg):
+        self.ir_data = msg.data
+        self.get_logger().info("Received IR data: %d" % self.ir_data)
+        if self.ir_data == 0:
+            self.timer = self.create_timer(0.17, self.continuous_panning)
+            self.timer = self.create_timer(3, self.publish_message)
+            self.activate = 1
     def continuous_panning(self):
         
         
@@ -70,7 +71,7 @@ class CameraController(Node):
             self.pan_step = -self.pan_step
             
             #increment tilt by 20 to max and min values to get full scan
-            if self.tilt_value >= 60 or self.tilt_value <=-60:
+            if self.tilt_value >= 45 or self.tilt_value <=-45:
                 self.tilt_inc = -self.tilt_inc
 
             self.tilt_value = self.tilt_value + self.tilt_inc
@@ -83,7 +84,7 @@ class CameraController(Node):
         flame_data = msg.data.split(', ')
         
         #When the flame has been found from opencv, the message will populate here
-        if len(flame_data) >= 4:
+        if len(flame_data) >= 4 and self.activate >= 1:
      
             # Extract individual values
             tag_center_x = int(flame_data[0].split(': ')[1])
@@ -97,7 +98,6 @@ class CameraController(Node):
                     self.tilt_step = -self.tilt_step
                 #Begin continuous tilting
                 self.timer = self.create_timer(0.1, self.continuous_tilting)
-
             # Center of frame on y-axis is near 250
             if tag_center_y >= 250 and tag_center_y <= 300:
                 
@@ -118,6 +118,7 @@ class CameraController(Node):
                 
                 #Shutdown node after 8 seconds 
                 if not self.shutdown_timer:
+                    self.flame_found = 0
                     self.shutdown_timer = self.create_timer(8.0, self.shutdown_callback)
 
 
@@ -126,8 +127,8 @@ class CameraController(Node):
     def continuous_tilting(self):
     
         # Define the maximum and minimum pan angles
-        max_tilt_angle = 60
-        min_tilt_angle = -60
+        max_tilt_angle = 45
+        min_tilt_angle = -45
        
         # Adjust pan value for continuous panning
         self.tilt_value = self.tilt_value + self.tilt_step
@@ -150,16 +151,24 @@ class CameraController(Node):
 
     def publish_message(self):
         
+        msg = String()
         #publish message for the water jet to start
         if self.flame_found > 0:
-            msg = String()
             msg.data = 'object_found'
             self.publisher.publish(msg)
+            self.get_logger().info('Published: %s' % msg.data)  
+            self.flame_found = 0
+        else:
+            msg.data = 'none'
+            self.publisher.publish(msg)
             self.get_logger().info('Published: %s' % msg.data)
-
     def shutdown_callback(self):
         #Exit node to shutdown program
+        self.flame_found = 0
+    #    self.publish_message()
+#        time.sleep(8)
         self.get_logger().info("Shutting down the node...")
+        self.flame_found = 0
         self.destroy_node()
 
 def main(args=None):
@@ -173,10 +182,10 @@ def main(args=None):
         except Exception as e:
             print(f"An error occured: {e}")
         finally:
-            camera_controller.destroy_node()
+            CameraController().destroy_node()
             rclpy.shutdown()
     print("Restarting the script in 5 seconds...")
-    timer.sleep(5)
+    time.sleep(5)
 
 if __name__ == '__main__':
     main()

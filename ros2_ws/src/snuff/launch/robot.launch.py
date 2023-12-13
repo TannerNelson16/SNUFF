@@ -108,8 +108,7 @@ def generate_launch_description():
 
     return LaunchDescription([
         camera,
-#        microros,
-#        apriltags,
+        microros,
         flame_state_publisher,
         object_found_sub,
         executive,
