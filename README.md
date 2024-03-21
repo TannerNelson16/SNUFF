@@ -1,2 +1,5 @@
-SNUFF (Self-Activated Network Utilizing Fire Fighter) 
-
+![Image Description](attachments/SNUFF_pg1.png)
+![Image Description](attachments/SNUFF_pg2.png)
+![Image Description](attachments/SNUFF_pg3.png)
+![Image Description](attachments/SNUFF_pg4.png)
+![Image Description](attachments/SNUFF_pg5.png)
